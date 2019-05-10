@@ -45,6 +45,7 @@
 * [46. 全排列](1-200/46.-quan-pai-lie.md)
 * [47. 全排列 II](1-200/47.-quan-pai-lie-ii.md)
 * [51. N皇后](1-200/51.nhuang-hou.md)
+* [52. N皇后 II](1-200/52.nhuang-hou-ii.md)
 * [58. 最后一个单词的长度](1-200/58.-zui-hou-yi-ge-dan-ci-de-chang-du.md)
 * [60. 第k个排列](1-200/60.-dikge-pai-lie.md)
 * [61. 旋转链表](1-200/61.-xuan-zhuan-lian-biao.md)
