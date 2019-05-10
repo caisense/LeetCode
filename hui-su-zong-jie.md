@@ -54,5 +54,15 @@ class Solution:
 
 {% page-ref page="1-200/39.-zu-he-zong-he.md" %}
 
+{% page-ref page="1-200/40.-zu-he-zong-he-ii.md" %}
+
+{% page-ref page="1-200/46.-quan-pai-lie.md" %}
+
+{% page-ref page="1-200/47.-quan-pai-lie-ii.md" %}
+
+{% page-ref page="1-200/77.-zu-he.md" %}
+
 {% page-ref page="1-200/78.-zi-ji.md" %}
+
+{% page-ref page="1-200/90.-zi-ji-ii.md" %}
 
