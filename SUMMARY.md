@@ -35,6 +35,7 @@
 * [27. 移除元素](1-200/27.-yi-chu-yuan-su.md)
 * [28. 实现strStr\(\)](1-200/28.-shi-xian-strstr.md)
 * [30. 串联所有单词的子串](1-200/30.-chuan-lian-suo-you-dan-ci-de-zi-chuan.md)
+* [31. 下一个排列](1-200/31.-xia-yi-ge-pai-lie.md)
 * [32. 最长有效括号](1-200/32.-zui-chang-you-xiao-kuo-hao.md)
 * [33. 搜索旋转排序数组](1-200/33.-sou-suo-xuan-zhuan-pai-xu-shu-zu.md)
 * [36. 有效的数独](1-200/36.-you-xiao-de-shu-du.md)
