@@ -38,6 +38,7 @@
 * [31. 下一个排列](1-200/31.-xia-yi-ge-pai-lie.md)
 * [32. 最长有效括号](1-200/32.-zui-chang-you-xiao-kuo-hao.md)
 * [33. 搜索旋转排序数组](1-200/33.-sou-suo-xuan-zhuan-pai-xu-shu-zu.md)
+* [34. 在排序数组中查找元素的第一个和最后一个位置](1-200/34.-zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-ge-he-zui-hou-yi-ge-wei-zhi.md)
 * [36. 有效的数独](1-200/36.-you-xiao-de-shu-du.md)
 * [37. 解数独](1-200/37.-jie-shu-du.md)
 * [38. 报数](1-200/38.-bao-shu.md)

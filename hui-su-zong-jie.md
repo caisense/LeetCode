@@ -50,6 +50,8 @@ class Solution:
 
 {% page-ref page="1-200/22.-kuo-hao-sheng-cheng.md" %}
 
+{% page-ref page="1-200/36.-you-xiao-de-shu-du.md" %}
+
 {% page-ref page="1-200/37.-jie-shu-du.md" %}
 
 {% page-ref page="1-200/39.-zu-he-zong-he.md" %}
