@@ -46,6 +46,7 @@
 * [39. 组合总和](1-200/39.-zu-he-zong-he.md)
 * [40. 组合总和 II](1-200/40.-zu-he-zong-he-ii.md)
 * [41. 缺失的第一个正数](1-200/41.-que-shi-de-di-yi-ge-zheng-shu.md)
+* [42. 接雨水](1-200/42.-jie-yu-shui.md)
 * [46. 全排列](1-200/46.-quan-pai-lie.md)
 * [47. 全排列 II](1-200/47.-quan-pai-lie-ii.md)
 * [51. N皇后](1-200/51.nhuang-hou.md)
