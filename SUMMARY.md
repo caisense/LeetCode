@@ -65,6 +65,7 @@
 * [61. 旋转链表](1-200/61.-xuan-zhuan-lian-biao.md)
 * [62. 不同路径](1-200/62.-bu-tong-lu-jing.md)
 * [63. 不同路径 II](1-200/63.-bu-tong-lu-jing-ii.md)
+* [64. 最小路径和](1-200/64.-zui-xiao-lu-jing-he.md)
 * [67. 二进制求和](1-200/67.-er-jin-zhi-qiu-he.md)
 * [68. 文本左右对齐](1-200/68.-wen-ben-zuo-you-dui-qi.md)
 * [71. 简化路径](1-200/71.-simplify-path.md)
