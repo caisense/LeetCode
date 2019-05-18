@@ -68,6 +68,7 @@
 * [64. 最小路径和](1-200/64.-zui-xiao-lu-jing-he.md)
 * [67. 二进制求和](1-200/67.-er-jin-zhi-qiu-he.md)
 * [68. 文本左右对齐](1-200/68.-wen-ben-zuo-you-dui-qi.md)
+* [70. 爬楼梯](1-200/70.-pa-lou-ti.md)
 * [71. 简化路径](1-200/71.-simplify-path.md)
 * [72. 编辑距离](1-200/72.-bian-ji-ju-li.md)
 * [76. 最小覆盖子串](1-200/76.-zui-xiao-fu-gai-zi-chuan.md)
