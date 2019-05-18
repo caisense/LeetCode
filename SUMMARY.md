@@ -52,6 +52,7 @@
 * [45. 跳跃游戏 II](1-200/45.-tiao-yue-you-xi-ii.md)
 * [46. 全排列](1-200/46.-quan-pai-lie.md)
 * [47. 全排列 II](1-200/47.-quan-pai-lie-ii.md)
+* [48. 旋转图像](1-200/48.-xuan-zhuan-tu-xiang.md)
 * [49. 字母异位词分组](1-200/49.-zi-mu-yi-wei-ci-fen-zu.md)
 * [51. N皇后](1-200/51.nhuang-hou.md)
 * [52. N皇后 II](1-200/52.nhuang-hou-ii.md)
