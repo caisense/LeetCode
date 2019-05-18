@@ -48,6 +48,8 @@
 * [41. 缺失的第一个正数](1-200/41.-que-shi-de-di-yi-ge-zheng-shu.md)
 * [42. 接雨水](1-200/42.-jie-yu-shui.md)
 * [43. 字符串相乘](1-200/43.-zi-fu-chuan-xiang-cheng.md)
+* [44. 通配符匹配](1-200/44.-tong-pei-fu-pi-pei.md)
+* [45. 跳跃游戏 II](1-200/45.-tiao-yue-you-xi-ii.md)
 * [46. 全排列](1-200/46.-quan-pai-lie.md)
 * [47. 全排列 II](1-200/47.-quan-pai-lie-ii.md)
 * [49. 字母异位词分组](1-200/49.-zi-mu-yi-wei-ci-fen-zu.md)
