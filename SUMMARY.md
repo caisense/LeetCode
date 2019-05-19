@@ -77,6 +77,7 @@
 * [77. 组合](1-200/77.-zu-he.md)
 * [78. 子集](1-200/78.-zi-ji.md)
 * [79. 单词搜索](1-200/79.-dan-ci-sou-suo.md)
+* [80. 删除排序数组中的重复项 II](1-200/80.-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-ii.md)
 * [81. 搜索旋转排序数组 II](1-200/81.-sou-suo-xuan-zhuan-pai-xu-shu-zu-ii.md)
 * [82. 删除排序链表中的重复元素 II](1-200/82.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su-ii.md)
 * [83. 删除排序链表中的重复元素](1-200/83.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su.md)
