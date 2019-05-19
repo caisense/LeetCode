@@ -74,6 +74,7 @@
 * [70. 爬楼梯](1-200/70.-pa-lou-ti.md)
 * [71. 简化路径](1-200/71.-simplify-path.md)
 * [72. 编辑距离](1-200/72.-bian-ji-ju-li.md)
+* [73. 矩阵置零](1-200/73.-ju-zhen-zhi-ling.md)
 * [75. 颜色分类](1-200/75.-yan-se-fen-lei.md)
 * [76. 最小覆盖子串](1-200/76.-zui-xiao-fu-gai-zi-chuan.md)
 * [77. 组合](1-200/77.-zu-he.md)
