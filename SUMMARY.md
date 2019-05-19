@@ -70,6 +70,7 @@
 * [66. 加一](1-200/66.-jia-yi.md)
 * [67. 二进制求和](1-200/67.-er-jin-zhi-qiu-he.md)
 * [68. 文本左右对齐](1-200/68.-wen-ben-zuo-you-dui-qi.md)
+* [69. x 的平方根](1-200/69.x-de-ping-fang-gen.md)
 * [70. 爬楼梯](1-200/70.-pa-lou-ti.md)
 * [71. 简化路径](1-200/71.-simplify-path.md)
 * [72. 编辑距离](1-200/72.-bian-ji-ju-li.md)
