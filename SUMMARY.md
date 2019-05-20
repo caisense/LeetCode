@@ -86,6 +86,7 @@
 * [81. 搜索旋转排序数组 II](1-200/81.-sou-suo-xuan-zhuan-pai-xu-shu-zu-ii.md)
 * [82. 删除排序链表中的重复元素 II](1-200/82.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su-ii.md)
 * [83. 删除排序链表中的重复元素](1-200/83.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su.md)
+* [84. 柱状图中最大的矩形](1-200/84.-zhu-zhuang-tu-zhong-zui-da-de-ju-xing.md)
 * [86. 分隔链表](1-200/86.-fen-ge-lian-biao.md)
 * [89. 格雷编码](1-200/89.-ge-lei-bian-ma.md)
 * [90. 子集 II](1-200/90.-zi-ji-ii.md)
