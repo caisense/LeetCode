@@ -92,6 +92,7 @@
 * [88. 合并两个有序数组](1-200/88.-he-bing-liang-ge-you-xu-shu-zu.md)
 * [89. 格雷编码](1-200/89.-ge-lei-bian-ma.md)
 * [90. 子集 II](1-200/90.-zi-ji-ii.md)
+* [91. 解码方法](1-200/91.-jie-ma-fang-fa.md)
 * [92. 反转链表 II](1-200/92.-fan-zhuan-lian-biao-ii.md)
 * [93. 复原IP地址](1-200/93.-fu-yuan-ip-di-zhi.md)
 * [94. 二叉树的中序遍历](1-200/94.-er-cha-shu-de-zhong-xu-bian-li.md)
