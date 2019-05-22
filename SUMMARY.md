@@ -96,6 +96,7 @@
 * [92. 反转链表 II](1-200/92.-fan-zhuan-lian-biao-ii.md)
 * [93. 复原IP地址](1-200/93.-fu-yuan-ip-di-zhi.md)
 * [94. 二叉树的中序遍历](1-200/94.-er-cha-shu-de-zhong-xu-bian-li.md)
+* [95. 不同的二叉搜索树 II](1-200/95.-bu-tong-de-er-cha-sou-suo-shu-ii.md)
 * [96. 不同的二叉搜索树](1-200/96.-bu-tong-de-er-cha-sou-suo-shu.md)
 * [102. 二叉树的层次遍历](1-200/102.-er-cha-shu-de-ceng-ci-bian-li.md)
 * [104. 二叉树的最大深度](1-200/104.-er-cha-shu-de-zui-da-shen-du.md)
