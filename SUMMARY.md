@@ -220,6 +220,7 @@
 
 * [609. 在系统中查找重复文件](601-800/609.-zai-xi-tong-zhong-cha-zhao-zhong-fu-wen-jian.md)
 * [617. 合并二叉树](601-800/617.-he-bing-er-cha-shu.md)
+* [623. 在二叉树中增加一行](601-800/623.-zai-er-cha-shu-zhong-zeng-jia-yi-hang.md)
 * [627. 交换工资](601-800/627.-jiao-huan-gong-zi.md)
 * [637. 二叉树的层平均值](601-800/637.-er-cha-shu-de-ceng-ping-jun-zhi.md)
 * [647. 回文子串](601-800/647.-hui-wen-zi-chuan.md)
