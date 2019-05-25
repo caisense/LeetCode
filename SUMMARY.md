@@ -105,6 +105,7 @@
 * [103. 二叉树的锯齿形层次遍历](1-200/103.-er-cha-shu-de-ju-chi-xing-ceng-ci-bian-li.md)
 * [104. 二叉树的最大深度](1-200/104.-er-cha-shu-de-zui-da-shen-du.md)
 * [105. 从前序与中序遍历序列构造二叉树](1-200/105.-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou-zao-er-cha-shu.md)
+* [106. 从中序与后序遍历序列构造二叉树](1-200/106.-cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-gou-zao-er-cha-shu.md)
 * [107. 二叉树的层次遍历 II](1-200/107.-er-cha-shu-de-ceng-ci-bian-li-ii.md)
 * [108. 将有序数组转换为二叉搜索树](1-200/108.-jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-suo-shu.md)
 * [115. 不同的子序列](1-200/115.-bu-tong-de-zi-xu-lie.md)
