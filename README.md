@@ -10,5 +10,5 @@
 def minMutation(self, start: str, end: str, bank: List[str]) -> int:
 ```
 
-3.28 所有lc博客均已从csdn搬运完毕，英文题目是付费题。（距离正式开始从头刷题恰好一年）
+6.13 所有lc博客均已从csdn搬运完毕，英文题目是付费题。
 
