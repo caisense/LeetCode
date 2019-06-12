@@ -120,6 +120,7 @@
 * [118. 杨辉三角](1-200/118.-yang-hui-san-jiao.md)
 * [119. 杨辉三角 II](1-200/119.-yang-hui-san-jiao-ii.md)
 * [120. 三角形最小路径和](1-200/120.-san-jiao-xing-zui-xiao-lu-jing-he.md)
+* [121. 买卖股票的最佳时机](1-200/121.-mai-mai-gu-piao-de-zui-jia-shi-ji.md)
 * [124. 二叉树中的最大路径和](1-200/124.-er-cha-shu-zhong-de-zui-da-lu-jing-he.md)
 * [125. 验证回文串](1-200/125.-yan-zheng-hui-wen-chuan.md)
 * [126. 单词接龙 II](1-200/126.-dan-ci-jie-long-ii.md)
