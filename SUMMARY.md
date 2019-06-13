@@ -99,6 +99,7 @@
 * [95. 不同的二叉搜索树 II](1-200/95.-bu-tong-de-er-cha-sou-suo-shu-ii.md)
 * [96. 不同的二叉搜索树](1-200/96.-bu-tong-de-er-cha-sou-suo-shu.md)
 * [98. 验证二叉搜索树](1-200/98.-yan-zheng-er-cha-sou-suo-shu.md)
+* [99. 恢复二叉搜索树](1-200/99.-hui-fu-er-cha-sou-suo-shu.md)
 * [100. 相同的树](1-200/100.-xiang-tong-de-shu.md)
 * [101. 对称二叉树](1-200/101.-dui-cheng-er-cha-shu.md)
 * [102. 二叉树的层次遍历](1-200/102.-er-cha-shu-de-ceng-ci-bian-li.md)
