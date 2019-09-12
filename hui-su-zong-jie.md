@@ -48,23 +48,23 @@ class Solution:
 
 ## 题目列表：
 
-{% page-ref page="1-200/22.-kuo-hao-sheng-cheng.md" %}
+**22.括号生成**
 
-{% page-ref page="1-200/36.-you-xiao-de-shu-du.md" %}
+**36.有效的数独**
 
-{% page-ref page="1-200/37.-jie-shu-du.md" %}
+**37.解数独**
 
-{% page-ref page="1-200/39.-zu-he-zong-he.md" %}
+**39.组合总和**
 
-{% page-ref page="1-200/40.-zu-he-zong-he-ii.md" %}
+**40.组合总和Ⅱ**
 
-{% page-ref page="1-200/46.-quan-pai-lie.md" %}
+**46.全排列**
 
-{% page-ref page="1-200/47.-quan-pai-lie-ii.md" %}
+**47.全排列Ⅱ**
 
-{% page-ref page="1-200/77.-zu-he.md" %}
+**77.组合**
 
-{% page-ref page="1-200/78.-zi-ji.md" %}
+**78.子集**
 
-{% page-ref page="1-200/90.-zi-ji-ii.md" %}
+**90.子集Ⅱ**
 
