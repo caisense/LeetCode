@@ -26,7 +26,7 @@ class Solution:
 
 ### 简化
 
-上面的递归操作**实质**上是将本层tmpList修改后传入下一层递归，待递归完成后再将tmpList还原。这波操作可以简化为直接在下一层**递归函数的参数**中对tmpList修改，这样本层递归的tmpList其实是不变的。
+上面的递归操作**实质**上是将本层tmpList修改后传入下一层递归，待递归完成后再将tmpList还原。这波操作可以简化为直接在下一层**递归函数的参数**中对tmpList修改，这样本层递归的tmpList其实是不变的，即不能对tmpList做**直接操作**。
 
 ```python
 class Solution:
@@ -45,6 +45,14 @@ class Solution:
                 #tmp的修改直接写在递归里
                 self.backtrack(nums, tmpList+[nums[i]], k, i + 1)
 ```
+
+例如，若15行写作
+
+```python
+self.backtrack(nums, tmpList.append([nums[i]]), k, i + 1)
+```
+
+则报错，因为调用append函数对tmpList本身做了修改操作。回溯时本层的tmpList无法回复之前的状态
 
 ## 题目列表：
 
