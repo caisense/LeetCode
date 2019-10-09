@@ -196,6 +196,7 @@
 * [257. 二叉树的所有路径](201-400/257.-er-cha-shu-de-suo-you-lu-jing.md)
 * [260. 只出现一次的数字 III](201-400/260.-zhi-chu-xian-yi-ci-de-shu-zi-iii.md)
 * [266. Palindrome Permutation](201-400/266.-palindrome-permutation.md)
+* [268. 缺失数字](201-400/268.-que-shi-shu-zi.md)
 * [280. Wiggle Sort（付费题）](201-400/280.-wiggle-sort-fu-fei-ti.md)
 * [290. 单词模式](201-400/290.-dan-ci-mo-shi.md)
 * [292. Nim游戏](201-400/292.-nim-you-xi.md)
