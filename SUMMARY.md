@@ -198,6 +198,7 @@
 * [266. Palindrome Permutation](201-400/266.-palindrome-permutation.md)
 * [268. 缺失数字](201-400/268.-que-shi-shu-zi.md)
 * [280. Wiggle Sort（付费题）](201-400/280.-wiggle-sort-fu-fei-ti.md)
+* [283. 移动零](201-400/283.-yi-dong-ling.md)
 * [290. 单词模式](201-400/290.-dan-ci-mo-shi.md)
 * [292. Nim游戏](201-400/292.-nim-you-xi.md)
 * [293. Flip Game](201-400/293.-flip-game.md)
