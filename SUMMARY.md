@@ -221,6 +221,7 @@
 * [419. 甲板上的战舰](401-600/419.-jia-ban-shang-de-zhan-jian.md)
 * [430. 扁平化多级双向链表](401-600/430.-bian-ping-hua-duo-ji-shuang-xiang-lian-biao.md)
 * [433. 最小基因变化](401-600/433.-zui-xiao-ji-yin-bian-hua.md)
+* [440. 字典序的第K小数字](401-600/440.-zi-dian-xu-de-dikxiao-shu-zi.md)
 * [442. 数组中重复的数据](401-600/442.-shu-zu-zhong-zhong-fu-de-shu-ju.md)
 * [445. 两数相加 II](401-600/445.-liang-shu-xiang-jia-ii.md)
 * [453. 最小移动次数使数组元素相等](401-600/453.-zui-xiao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-deng.md)
