@@ -282,3 +282,7 @@
 * [852. 山脉数组的峰顶索引](801-1000/852.-shan-mai-shu-zu-de-feng-ding-suo-yin.md)
 * [876. 链表的中间结点](801-1000/876.-lian-biao-de-zhong-jian-jie-dian.md)
 
+## 1000~1200
+
+* [1014. 最佳观光组合](1000-1200/1014.-zui-jia-guan-guang-zu-he.md)
+
