@@ -202,6 +202,7 @@
 * [290. 单词模式](201-400/290.-dan-ci-mo-shi.md)
 * [292. Nim游戏](201-400/292.-nim-you-xi.md)
 * [293. Flip Game](201-400/293.-flip-game.md)
+* [300. 最长上升子序列](201-400/300.-zui-chang-shang-sheng-zi-xu-lie.md)
 * [328. 奇偶链表](201-400/328.-qi-ou-lian-biao.md)
 * [338. 比特位计数](201-400/338.-bi-te-wei-ji-shu.md)
 * [339. Nested List Weight Sum](201-400/339.-nested-list-weight-sum-fu-fei-ti.md)
