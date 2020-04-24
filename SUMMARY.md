@@ -225,6 +225,7 @@
 * [440. 字典序的第K小数字](401-600/440.-zi-dian-xu-de-dikxiao-shu-zi.md)
 * [442. 数组中重复的数据](401-600/442.-shu-zu-zhong-zhong-fu-de-shu-ju.md)
 * [445. 两数相加 II](401-600/445.-liang-shu-xiang-jia-ii.md)
+* [452. 用最少数量的箭引爆气球](401-600/452.-yong-zui-shao-shu-liang-de-jian-yin-bao-qi-qiu.md)
 * [453. 最小移动次数使数组元素相等](401-600/453.-zui-xiao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-deng.md)
 * [461. 汉明距离](401-600/461.-han-ming-ju-li.md)
 * [462. 最少移动次数使数组元素相等 II](401-600/462.-zui-shao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-deng-ii.md)
