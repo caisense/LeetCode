@@ -1,0 +1,3842 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>216. 组合总和 III · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="217.-cun-zai-zhong-fu-yuan-su.html" />
+    
+    
+    <link rel="prev" href="209.-chang-du-zui-xiao-de-zi-shu-zu.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Caisense的刷题笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../lian-biao-zong-jie.html">
+            
+                <a href="../lian-biao-zong-jie.html">
+            
+                    
+                    链表总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../hui-su-zong-jie.html">
+            
+                <a href="../hui-su-zong-jie.html">
+            
+                    
+                    回溯总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">1~200</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../1-200/1.-liang-shu-zhi-he.html">
+            
+                <a href="../1-200/1.-liang-shu-zhi-he.html">
+            
+                    
+                    1. 两数之和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../1-200/2.-liang-shu-xiang-jia.html">
+            
+                <a href="../1-200/2.-liang-shu-xiang-jia.html">
+            
+                    
+                    2. 两数相加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../1-200/3.-wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan.html">
+            
+                <a href="../1-200/3.-wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan.html">
+            
+                    
+                    3. 无重复字符的最长子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../1-200/4.-xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-shu.html">
+            
+                <a href="../1-200/4.-xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-shu.html">
+            
+                    
+                    4. 寻找两个有序数组的中位数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../1-200/5.-zui-chang-hui-wen-zi-chuan.html">
+            
+                <a href="../1-200/5.-zui-chang-hui-wen-zi-chuan.html">
+            
+                    
+                    5. 最长回文子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../1-200/6.z-zi-xing-bian-huan.html">
+            
+                <a href="../1-200/6.z-zi-xing-bian-huan.html">
+            
+                    
+                    6. Z 字形变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../1-200/7.-zheng-shu-fan-zhuan.html">
+            
+                <a href="../1-200/7.-zheng-shu-fan-zhuan.html">
+            
+                    
+                    7. 整数反转
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../1-200/8.-zi-fu-chuan-zhuan-huan-zheng-shu-atoi.html">
+            
+                <a href="../1-200/8.-zi-fu-chuan-zhuan-huan-zheng-shu-atoi.html">
+            
+                    
+                    8. 字符串转换整数 (atoi)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../1-200/9.-hui-wen-shu.html">
+            
+                <a href="../1-200/9.-hui-wen-shu.html">
+            
+                    
+                    9. 回文数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../1-200/10.-zheng-ze-biao-da-shi-pi-pei.html">
+            
+                <a href="../1-200/10.-zheng-ze-biao-da-shi-pi-pei.html">
+            
+                    
+                    10. 正则表达式匹配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="../1-200/11.-sheng-zui-duo-shui-de-rong-qi.html">
+            
+                <a href="../1-200/11.-sheng-zui-duo-shui-de-rong-qi.html">
+            
+                    
+                    11. 盛最多水的容器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="../1-200/12.-zheng-shu-zhuan-luo-ma-shu-zi.html">
+            
+                <a href="../1-200/12.-zheng-shu-zhuan-luo-ma-shu-zi.html">
+            
+                    
+                    12. 整数转罗马数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13" data-path="../1-200/13.-luo-ma-shu-zi-zhuan-zheng-shu.html">
+            
+                <a href="../1-200/13.-luo-ma-shu-zi-zhuan-zheng-shu.html">
+            
+                    
+                    13. 罗马数字转整数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14" data-path="../1-200/14.-zui-chang-gong-gong-qian-zhui.html">
+            
+                <a href="../1-200/14.-zui-chang-gong-gong-qian-zhui.html">
+            
+                    
+                    14. 最长公共前缀
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.15" data-path="../1-200/15.-san-shu-zhi-he.html">
+            
+                <a href="../1-200/15.-san-shu-zhi-he.html">
+            
+                    
+                    15. 三数之和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.16" data-path="../1-200/16.-zui-jie-jin-de-san-shu-zhi-he.html">
+            
+                <a href="../1-200/16.-zui-jie-jin-de-san-shu-zhi-he.html">
+            
+                    
+                    16. 最接近的三数之和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.17" data-path="../1-200/17.-dian-hua-hao-ma-de-zi-mu-zu-he.html">
+            
+                <a href="../1-200/17.-dian-hua-hao-ma-de-zi-mu-zu-he.html">
+            
+                    
+                    17. 电话号码的字母组合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.18" data-path="../1-200/18.-si-shu-zhi-he.html">
+            
+                <a href="../1-200/18.-si-shu-zhi-he.html">
+            
+                    
+                    18. 四数之和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.19" data-path="../1-200/19.-shan-chu-lian-biao-de-dao-shu-dinge-jie-dian.html">
+            
+                <a href="../1-200/19.-shan-chu-lian-biao-de-dao-shu-dinge-jie-dian.html">
+            
+                    
+                    19. 删除链表的倒数第N个节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.20" data-path="../1-200/20.-you-xiao-de-kuo-hao.html">
+            
+                <a href="../1-200/20.-you-xiao-de-kuo-hao.html">
+            
+                    
+                    20. 有效的括号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.21" data-path="../1-200/21.-he-bing-liang-ge-you-xu-lian-biao.html">
+            
+                <a href="../1-200/21.-he-bing-liang-ge-you-xu-lian-biao.html">
+            
+                    
+                    21. 合并两个有序链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.22" data-path="../1-200/22.-kuo-hao-sheng-cheng.html">
+            
+                <a href="../1-200/22.-kuo-hao-sheng-cheng.html">
+            
+                    
+                    22. 括号生成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.23" data-path="../1-200/23.-he-bingkge-pai-xu-lian-biao.html">
+            
+                <a href="../1-200/23.-he-bingkge-pai-xu-lian-biao.html">
+            
+                    
+                    23. 合并K个排序链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.24" data-path="../1-200/24.-liang-liang-jiao-huan-lian-biao-zhong-de-jie-dian.html">
+            
+                <a href="../1-200/24.-liang-liang-jiao-huan-lian-biao-zhong-de-jie-dian.html">
+            
+                    
+                    24. 两两交换链表中的节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.25" data-path="../1-200/25.kge-yi-zu-fan-zhuan-lian-biao.html">
+            
+                <a href="../1-200/25.kge-yi-zu-fan-zhuan-lian-biao.html">
+            
+                    
+                    25. k个一组翻转链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.26" data-path="../1-200/26.-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang.html">
+            
+                <a href="../1-200/26.-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang.html">
+            
+                    
+                    26. 删除排序数组中的重复项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.27" data-path="../1-200/27.-yi-chu-yuan-su.html">
+            
+                <a href="../1-200/27.-yi-chu-yuan-su.html">
+            
+                    
+                    27. 移除元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.28" data-path="../1-200/28.-shi-xian-strstr.html">
+            
+                <a href="../1-200/28.-shi-xian-strstr.html">
+            
+                    
+                    28. 实现strStr()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.29" data-path="../1-200/30.-chuan-lian-suo-you-dan-ci-de-zi-chuan.html">
+            
+                <a href="../1-200/30.-chuan-lian-suo-you-dan-ci-de-zi-chuan.html">
+            
+                    
+                    30. 串联所有单词的子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.30" data-path="../1-200/31.-xia-yi-ge-pai-lie.html">
+            
+                <a href="../1-200/31.-xia-yi-ge-pai-lie.html">
+            
+                    
+                    31. 下一个排列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.31" data-path="../1-200/32.-zui-chang-you-xiao-kuo-hao.html">
+            
+                <a href="../1-200/32.-zui-chang-you-xiao-kuo-hao.html">
+            
+                    
+                    32. 最长有效括号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.32" data-path="../1-200/33.-sou-suo-xuan-zhuan-pai-xu-shu-zu.html">
+            
+                <a href="../1-200/33.-sou-suo-xuan-zhuan-pai-xu-shu-zu.html">
+            
+                    
+                    33. 搜索旋转排序数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.33" data-path="../1-200/34.-zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-ge-he-zui-hou-yi-ge-wei-zhi.html">
+            
+                <a href="../1-200/34.-zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-ge-he-zui-hou-yi-ge-wei-zhi.html">
+            
+                    
+                    34. 在排序数组中查找元素的第一个和最后一个位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.34" data-path="../1-200/35.-sou-suo-cha-ru-wei-zhi.html">
+            
+                <a href="../1-200/35.-sou-suo-cha-ru-wei-zhi.html">
+            
+                    
+                    35. 搜索插入位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.35" data-path="../1-200/36.-you-xiao-de-shu-du.html">
+            
+                <a href="../1-200/36.-you-xiao-de-shu-du.html">
+            
+                    
+                    36. 有效的数独
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.36" data-path="../1-200/37.-jie-shu-du.html">
+            
+                <a href="../1-200/37.-jie-shu-du.html">
+            
+                    
+                    37. 解数独
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.37" data-path="../1-200/38.-bao-shu.html">
+            
+                <a href="../1-200/38.-bao-shu.html">
+            
+                    
+                    38. 报数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.38" data-path="../1-200/39.-zu-he-zong-he.html">
+            
+                <a href="../1-200/39.-zu-he-zong-he.html">
+            
+                    
+                    39. 组合总和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.39" data-path="../1-200/40.-zu-he-zong-he-ii.html">
+            
+                <a href="../1-200/40.-zu-he-zong-he-ii.html">
+            
+                    
+                    40. 组合总和 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.40" data-path="../1-200/41.-que-shi-de-di-yi-ge-zheng-shu.html">
+            
+                <a href="../1-200/41.-que-shi-de-di-yi-ge-zheng-shu.html">
+            
+                    
+                    41. 缺失的第一个正数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.41" data-path="../1-200/42.-jie-yu-shui.html">
+            
+                <a href="../1-200/42.-jie-yu-shui.html">
+            
+                    
+                    42. 接雨水
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.42" data-path="../1-200/43.-zi-fu-chuan-xiang-cheng.html">
+            
+                <a href="../1-200/43.-zi-fu-chuan-xiang-cheng.html">
+            
+                    
+                    43. 字符串相乘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.43" data-path="../1-200/44.-tong-pei-fu-pi-pei.html">
+            
+                <a href="../1-200/44.-tong-pei-fu-pi-pei.html">
+            
+                    
+                    44. 通配符匹配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.44" data-path="../1-200/45.-tiao-yue-you-xi-ii.html">
+            
+                <a href="../1-200/45.-tiao-yue-you-xi-ii.html">
+            
+                    
+                    45. 跳跃游戏 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.45" data-path="../1-200/46.-quan-pai-lie.html">
+            
+                <a href="../1-200/46.-quan-pai-lie.html">
+            
+                    
+                    46. 全排列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.46" data-path="../1-200/47.-quan-pai-lie-ii.html">
+            
+                <a href="../1-200/47.-quan-pai-lie-ii.html">
+            
+                    
+                    47. 全排列 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.47" data-path="../1-200/48.-xuan-zhuan-tu-xiang.html">
+            
+                <a href="../1-200/48.-xuan-zhuan-tu-xiang.html">
+            
+                    
+                    48. 旋转图像
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.48" data-path="../1-200/49.-zi-mu-yi-wei-ci-fen-zu.html">
+            
+                <a href="../1-200/49.-zi-mu-yi-wei-ci-fen-zu.html">
+            
+                    
+                    49. 字母异位词分组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.49" data-path="../1-200/51.nhuang-hou.html">
+            
+                <a href="../1-200/51.nhuang-hou.html">
+            
+                    
+                    51. N皇后
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.50" data-path="../1-200/52.nhuang-hou-ii.html">
+            
+                <a href="../1-200/52.nhuang-hou-ii.html">
+            
+                    
+                    52. N皇后 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.51" data-path="../1-200/53.-zui-da-zi-xu-he.html">
+            
+                <a href="../1-200/53.-zui-da-zi-xu-he.html">
+            
+                    
+                    53. 最大子序和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.52" data-path="../1-200/54.-luo-xuan-ju-zhen.html">
+            
+                <a href="../1-200/54.-luo-xuan-ju-zhen.html">
+            
+                    
+                    54. 螺旋矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.53" data-path="../1-200/55.-tiao-yue-you-xi.html">
+            
+                <a href="../1-200/55.-tiao-yue-you-xi.html">
+            
+                    
+                    55. 跳跃游戏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.54" data-path="../1-200/56.-he-bing-qu-jian.html">
+            
+                <a href="../1-200/56.-he-bing-qu-jian.html">
+            
+                    
+                    56. 合并区间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.55" data-path="../1-200/57.-cha-ru-qu-jian.html">
+            
+                <a href="../1-200/57.-cha-ru-qu-jian.html">
+            
+                    
+                    57. 插入区间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.56" data-path="../1-200/58.-zui-hou-yi-ge-dan-ci-de-chang-du.html">
+            
+                <a href="../1-200/58.-zui-hou-yi-ge-dan-ci-de-chang-du.html">
+            
+                    
+                    58. 最后一个单词的长度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.57" data-path="../1-200/59.-luo-xuan-ju-zhen-ii.html">
+            
+                <a href="../1-200/59.-luo-xuan-ju-zhen-ii.html">
+            
+                    
+                    59. 螺旋矩阵 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.58" data-path="../1-200/60.-dikge-pai-lie.html">
+            
+                <a href="../1-200/60.-dikge-pai-lie.html">
+            
+                    
+                    60. 第k个排列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.59" data-path="../1-200/61.-xuan-zhuan-lian-biao.html">
+            
+                <a href="../1-200/61.-xuan-zhuan-lian-biao.html">
+            
+                    
+                    61. 旋转链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.60" data-path="../1-200/62.-bu-tong-lu-jing.html">
+            
+                <a href="../1-200/62.-bu-tong-lu-jing.html">
+            
+                    
+                    62. 不同路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.61" data-path="../1-200/63.-bu-tong-lu-jing-ii.html">
+            
+                <a href="../1-200/63.-bu-tong-lu-jing-ii.html">
+            
+                    
+                    63. 不同路径 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.62" data-path="../1-200/64.-zui-xiao-lu-jing-he.html">
+            
+                <a href="../1-200/64.-zui-xiao-lu-jing-he.html">
+            
+                    
+                    64. 最小路径和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.63" data-path="../1-200/66.-jia-yi.html">
+            
+                <a href="../1-200/66.-jia-yi.html">
+            
+                    
+                    66. 加一
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.64" data-path="../1-200/67.-er-jin-zhi-qiu-he.html">
+            
+                <a href="../1-200/67.-er-jin-zhi-qiu-he.html">
+            
+                    
+                    67. 二进制求和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.65" data-path="../1-200/68.-wen-ben-zuo-you-dui-qi.html">
+            
+                <a href="../1-200/68.-wen-ben-zuo-you-dui-qi.html">
+            
+                    
+                    68. 文本左右对齐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.66" data-path="../1-200/69.x-de-ping-fang-gen.html">
+            
+                <a href="../1-200/69.x-de-ping-fang-gen.html">
+            
+                    
+                    69. x 的平方根
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.67" data-path="../1-200/70.-pa-lou-ti.html">
+            
+                <a href="../1-200/70.-pa-lou-ti.html">
+            
+                    
+                    70. 爬楼梯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.68" data-path="../1-200/71.-simplify-path.html">
+            
+                <a href="../1-200/71.-simplify-path.html">
+            
+                    
+                    71. 简化路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.69" data-path="../1-200/72.-bian-ji-ju-li.html">
+            
+                <a href="../1-200/72.-bian-ji-ju-li.html">
+            
+                    
+                    72. 编辑距离
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.70" data-path="../1-200/73.-ju-zhen-zhi-ling.html">
+            
+                <a href="../1-200/73.-ju-zhen-zhi-ling.html">
+            
+                    
+                    73. 矩阵置零
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.71" data-path="../1-200/74.-sou-suo-er-wei-ju-zhen.html">
+            
+                <a href="../1-200/74.-sou-suo-er-wei-ju-zhen.html">
+            
+                    
+                    74. 搜索二维矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.72" data-path="../1-200/75.-yan-se-fen-lei.html">
+            
+                <a href="../1-200/75.-yan-se-fen-lei.html">
+            
+                    
+                    75. 颜色分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.73" data-path="../1-200/76.-zui-xiao-fu-gai-zi-chuan.html">
+            
+                <a href="../1-200/76.-zui-xiao-fu-gai-zi-chuan.html">
+            
+                    
+                    76. 最小覆盖子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.74" data-path="../1-200/77.-zu-he.html">
+            
+                <a href="../1-200/77.-zu-he.html">
+            
+                    
+                    77. 组合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.75" data-path="../1-200/78.-zi-ji.html">
+            
+                <a href="../1-200/78.-zi-ji.html">
+            
+                    
+                    78. 子集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.76" data-path="../1-200/79.-dan-ci-sou-suo.html">
+            
+                <a href="../1-200/79.-dan-ci-sou-suo.html">
+            
+                    
+                    79. 单词搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.77" data-path="../1-200/80.-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-ii.html">
+            
+                <a href="../1-200/80.-shan-chu-pai-xu-shu-zu-zhong-de-zhong-fu-xiang-ii.html">
+            
+                    
+                    80. 删除排序数组中的重复项 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.78" data-path="../1-200/81.-sou-suo-xuan-zhuan-pai-xu-shu-zu-ii.html">
+            
+                <a href="../1-200/81.-sou-suo-xuan-zhuan-pai-xu-shu-zu-ii.html">
+            
+                    
+                    81. 搜索旋转排序数组 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.79" data-path="../1-200/82.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su-ii.html">
+            
+                <a href="../1-200/82.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su-ii.html">
+            
+                    
+                    82. 删除排序链表中的重复元素 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.80" data-path="../1-200/83.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su.html">
+            
+                <a href="../1-200/83.-shan-chu-pai-xu-lian-biao-zhong-de-zhong-fu-yuan-su.html">
+            
+                    
+                    83. 删除排序链表中的重复元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.81" data-path="../1-200/84.-zhu-zhuang-tu-zhong-zui-da-de-ju-xing.html">
+            
+                <a href="../1-200/84.-zhu-zhuang-tu-zhong-zui-da-de-ju-xing.html">
+            
+                    
+                    84. 柱状图中最大的矩形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.82" data-path="../1-200/85.-zui-da-ju-xing.html">
+            
+                <a href="../1-200/85.-zui-da-ju-xing.html">
+            
+                    
+                    85. 最大矩形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.83" data-path="../1-200/86.-fen-ge-lian-biao.html">
+            
+                <a href="../1-200/86.-fen-ge-lian-biao.html">
+            
+                    
+                    86. 分隔链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.84" data-path="../1-200/88.-he-bing-liang-ge-you-xu-shu-zu.html">
+            
+                <a href="../1-200/88.-he-bing-liang-ge-you-xu-shu-zu.html">
+            
+                    
+                    88. 合并两个有序数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.85" data-path="../1-200/89.-ge-lei-bian-ma.html">
+            
+                <a href="../1-200/89.-ge-lei-bian-ma.html">
+            
+                    
+                    89. 格雷编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.86" data-path="../1-200/90.-zi-ji-ii.html">
+            
+                <a href="../1-200/90.-zi-ji-ii.html">
+            
+                    
+                    90. 子集 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.87" data-path="../1-200/91.-jie-ma-fang-fa.html">
+            
+                <a href="../1-200/91.-jie-ma-fang-fa.html">
+            
+                    
+                    91. 解码方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.88" data-path="../1-200/92.-fan-zhuan-lian-biao-ii.html">
+            
+                <a href="../1-200/92.-fan-zhuan-lian-biao-ii.html">
+            
+                    
+                    92. 反转链表 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.89" data-path="../1-200/93.-fu-yuan-ip-di-zhi.html">
+            
+                <a href="../1-200/93.-fu-yuan-ip-di-zhi.html">
+            
+                    
+                    93. 复原IP地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.90" data-path="../1-200/94.-er-cha-shu-de-zhong-xu-bian-li.html">
+            
+                <a href="../1-200/94.-er-cha-shu-de-zhong-xu-bian-li.html">
+            
+                    
+                    94. 二叉树的中序遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.91" data-path="../1-200/95.-bu-tong-de-er-cha-sou-suo-shu-ii.html">
+            
+                <a href="../1-200/95.-bu-tong-de-er-cha-sou-suo-shu-ii.html">
+            
+                    
+                    95. 不同的二叉搜索树 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.92" data-path="../1-200/96.-bu-tong-de-er-cha-sou-suo-shu.html">
+            
+                <a href="../1-200/96.-bu-tong-de-er-cha-sou-suo-shu.html">
+            
+                    
+                    96. 不同的二叉搜索树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.93" data-path="../1-200/98.-yan-zheng-er-cha-sou-suo-shu.html">
+            
+                <a href="../1-200/98.-yan-zheng-er-cha-sou-suo-shu.html">
+            
+                    
+                    98. 验证二叉搜索树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.94" data-path="../1-200/99.-hui-fu-er-cha-sou-suo-shu.html">
+            
+                <a href="../1-200/99.-hui-fu-er-cha-sou-suo-shu.html">
+            
+                    
+                    99. 恢复二叉搜索树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.95" data-path="../1-200/100.-xiang-tong-de-shu.html">
+            
+                <a href="../1-200/100.-xiang-tong-de-shu.html">
+            
+                    
+                    100. 相同的树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.96" data-path="../1-200/101.-dui-cheng-er-cha-shu.html">
+            
+                <a href="../1-200/101.-dui-cheng-er-cha-shu.html">
+            
+                    
+                    101. 对称二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.97" data-path="../1-200/102.-er-cha-shu-de-ceng-ci-bian-li.html">
+            
+                <a href="../1-200/102.-er-cha-shu-de-ceng-ci-bian-li.html">
+            
+                    
+                    102. 二叉树的层次遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.98" data-path="../1-200/103.-er-cha-shu-de-ju-chi-xing-ceng-ci-bian-li.html">
+            
+                <a href="../1-200/103.-er-cha-shu-de-ju-chi-xing-ceng-ci-bian-li.html">
+            
+                    
+                    103. 二叉树的锯齿形层次遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.99" data-path="../1-200/104.-er-cha-shu-de-zui-da-shen-du.html">
+            
+                <a href="../1-200/104.-er-cha-shu-de-zui-da-shen-du.html">
+            
+                    
+                    104. 二叉树的最大深度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.100" data-path="../1-200/105.-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou-zao-er-cha-shu.html">
+            
+                <a href="../1-200/105.-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou-zao-er-cha-shu.html">
+            
+                    
+                    105. 从前序与中序遍历序列构造二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.101" data-path="../1-200/106.-cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-gou-zao-er-cha-shu.html">
+            
+                <a href="../1-200/106.-cong-zhong-xu-yu-hou-xu-bian-li-xu-lie-gou-zao-er-cha-shu.html">
+            
+                    
+                    106. 从中序与后序遍历序列构造二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.102" data-path="../1-200/107.-er-cha-shu-de-ceng-ci-bian-li-ii.html">
+            
+                <a href="../1-200/107.-er-cha-shu-de-ceng-ci-bian-li-ii.html">
+            
+                    
+                    107. 二叉树的层次遍历 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.103" data-path="../1-200/108.-jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-suo-shu.html">
+            
+                <a href="../1-200/108.-jiang-you-xu-shu-zu-zhuan-huan-wei-er-cha-sou-suo-shu.html">
+            
+                    
+                    108. 将有序数组转换为二叉搜索树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.104" data-path="../1-200/109.-you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu.html">
+            
+                <a href="../1-200/109.-you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu.html">
+            
+                    
+                    109. 有序链表转换二叉搜索树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.105" data-path="../1-200/110.-ping-heng-er-cha-shu.html">
+            
+                <a href="../1-200/110.-ping-heng-er-cha-shu.html">
+            
+                    
+                    110. 平衡二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.106" data-path="../1-200/111.-er-cha-shu-de-zui-xiao-shen-du.html">
+            
+                <a href="../1-200/111.-er-cha-shu-de-zui-xiao-shen-du.html">
+            
+                    
+                    111. 二叉树的最小深度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.107" data-path="../1-200/112.-lu-jing-zong-he.html">
+            
+                <a href="../1-200/112.-lu-jing-zong-he.html">
+            
+                    
+                    112. 路径总和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.108" data-path="../1-200/113.-lu-jing-zong-he-ii.html">
+            
+                <a href="../1-200/113.-lu-jing-zong-he-ii.html">
+            
+                    
+                    113. 路径总和 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.109" data-path="../1-200/114.-er-cha-shu-zhan-kai-wei-lian-biao.html">
+            
+                <a href="../1-200/114.-er-cha-shu-zhan-kai-wei-lian-biao.html">
+            
+                    
+                    114. 二叉树展开为链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.110" data-path="../1-200/115.-bu-tong-de-zi-xu-lie.html">
+            
+                <a href="../1-200/115.-bu-tong-de-zi-xu-lie.html">
+            
+                    
+                    115. 不同的子序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.111" data-path="../1-200/116.-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen.html">
+            
+                <a href="../1-200/116.-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen.html">
+            
+                    
+                    116. 填充每个节点的下一个右侧节点指针
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.112" data-path="../1-200/117.-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen-ii.html">
+            
+                <a href="../1-200/117.-tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-jie-dian-zhi-zhen-ii.html">
+            
+                    
+                    117. 填充每个节点的下一个右侧节点指针 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.113" data-path="../1-200/118.-yang-hui-san-jiao.html">
+            
+                <a href="../1-200/118.-yang-hui-san-jiao.html">
+            
+                    
+                    118. 杨辉三角
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.114" data-path="../1-200/119.-yang-hui-san-jiao-ii.html">
+            
+                <a href="../1-200/119.-yang-hui-san-jiao-ii.html">
+            
+                    
+                    119. 杨辉三角 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.115" data-path="../1-200/120.-san-jiao-xing-zui-xiao-lu-jing-he.html">
+            
+                <a href="../1-200/120.-san-jiao-xing-zui-xiao-lu-jing-he.html">
+            
+                    
+                    120. 三角形最小路径和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.116" data-path="../1-200/121.-mai-mai-gu-piao-de-zui-jia-shi-ji.html">
+            
+                <a href="../1-200/121.-mai-mai-gu-piao-de-zui-jia-shi-ji.html">
+            
+                    
+                    121. 买卖股票的最佳时机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.117" data-path="../1-200/122.-mai-mai-gu-piao-de-zui-jia-shi-ji-ii.html">
+            
+                <a href="../1-200/122.-mai-mai-gu-piao-de-zui-jia-shi-ji-ii.html">
+            
+                    
+                    122. 买卖股票的最佳时机 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.118" data-path="../1-200/123.-mai-mai-gu-piao-de-zui-jia-shi-ji-iii.html">
+            
+                <a href="../1-200/123.-mai-mai-gu-piao-de-zui-jia-shi-ji-iii.html">
+            
+                    
+                    123. 买卖股票的最佳时机 III
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.119" data-path="../1-200/124.-er-cha-shu-zhong-de-zui-da-lu-jing-he.html">
+            
+                <a href="../1-200/124.-er-cha-shu-zhong-de-zui-da-lu-jing-he.html">
+            
+                    
+                    124. 二叉树中的最大路径和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.120" data-path="../1-200/125.-yan-zheng-hui-wen-chuan.html">
+            
+                <a href="../1-200/125.-yan-zheng-hui-wen-chuan.html">
+            
+                    
+                    125. 验证回文串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.121" data-path="../1-200/126.-dan-ci-jie-long-ii.html">
+            
+                <a href="../1-200/126.-dan-ci-jie-long-ii.html">
+            
+                    
+                    126. 单词接龙 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.122" data-path="../1-200/127.-dan-ci-jie-long.html">
+            
+                <a href="../1-200/127.-dan-ci-jie-long.html">
+            
+                    
+                    127. 单词接龙
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.123" data-path="../1-200/128.-zui-chang-lian-xu-xu-lie.html">
+            
+                <a href="../1-200/128.-zui-chang-lian-xu-xu-lie.html">
+            
+                    
+                    128. 最长连续序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.124" data-path="../1-200/129.-qiu-gen-dao-ye-zi-jie-dian-shu-zi-zhi-he.html">
+            
+                <a href="../1-200/129.-qiu-gen-dao-ye-zi-jie-dian-shu-zi-zhi-he.html">
+            
+                    
+                    129. 求根到叶子节点数字之和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.125" data-path="../1-200/130.-bei-wei-rao-de-qu-yu.html">
+            
+                <a href="../1-200/130.-bei-wei-rao-de-qu-yu.html">
+            
+                    
+                    130. 被围绕的区域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.126" data-path="../1-200/131.-fen-ge-hui-wen-chuan.html">
+            
+                <a href="../1-200/131.-fen-ge-hui-wen-chuan.html">
+            
+                    
+                    131. 分割回文串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.127" data-path="../1-200/132.-fen-ge-hui-wen-chuan-ii.html">
+            
+                <a href="../1-200/132.-fen-ge-hui-wen-chuan-ii.html">
+            
+                    
+                    132. 分割回文串 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.128" data-path="../1-200/134.-jia-you-zhan.html">
+            
+                <a href="../1-200/134.-jia-you-zhan.html">
+            
+                    
+                    134. 加油站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.129" data-path="../1-200/135.-fen-fa-tang-guo.html">
+            
+                <a href="../1-200/135.-fen-fa-tang-guo.html">
+            
+                    
+                    135. 分发糖果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.130" data-path="../1-200/136.-zhi-chu-xian-yi-ci-de-shu-zi.html">
+            
+                <a href="../1-200/136.-zhi-chu-xian-yi-ci-de-shu-zi.html">
+            
+                    
+                    136. 只出现一次的数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.131" data-path="../1-200/137.-zhi-chu-xian-yi-ci-de-shu-zi-ii.html">
+            
+                <a href="../1-200/137.-zhi-chu-xian-yi-ci-de-shu-zi-ii.html">
+            
+                    
+                    137. 只出现一次的数字 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.132" data-path="../1-200/139.-dan-ci-chai-fen.html">
+            
+                <a href="../1-200/139.-dan-ci-chai-fen.html">
+            
+                    
+                    139. 单词拆分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.133" data-path="../1-200/140.-dan-ci-chai-fen-ii.html">
+            
+                <a href="../1-200/140.-dan-ci-chai-fen-ii.html">
+            
+                    
+                    140. 单词拆分 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.134" data-path="../1-200/141.-huan-xing-lian-biao.html">
+            
+                <a href="../1-200/141.-huan-xing-lian-biao.html">
+            
+                    
+                    141. 环形链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.135" data-path="../1-200/142.-huan-xing-lian-biao-ii.html">
+            
+                <a href="../1-200/142.-huan-xing-lian-biao-ii.html">
+            
+                    
+                    142. 环形链表 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.136" data-path="../1-200/143.-zhong-pai-lian-biao.html">
+            
+                <a href="../1-200/143.-zhong-pai-lian-biao.html">
+            
+                    
+                    143. 重排链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.137" data-path="../1-200/144.-er-cha-shu-de-qian-xu-bian-li.html">
+            
+                <a href="../1-200/144.-er-cha-shu-de-qian-xu-bian-li.html">
+            
+                    
+                    144. 二叉树的前序遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.138" data-path="../1-200/145.-er-cha-shu-de-hou-xu-bian-li.html">
+            
+                <a href="../1-200/145.-er-cha-shu-de-hou-xu-bian-li.html">
+            
+                    
+                    145. 二叉树的后序遍历
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.139" data-path="../1-200/147.-dui-lian-biao-jin-hang-cha-ru-pai-xu.html">
+            
+                <a href="../1-200/147.-dui-lian-biao-jin-hang-cha-ru-pai-xu.html">
+            
+                    
+                    147. 对链表进行插入排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.140" data-path="../1-200/148.-pai-xu-lian-biao.html">
+            
+                <a href="../1-200/148.-pai-xu-lian-biao.html">
+            
+                    
+                    148. 排序链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.141" data-path="../1-200/150.-ni-bo-lan-biao-da-shi-qiu-zhi.html">
+            
+                <a href="../1-200/150.-ni-bo-lan-biao-da-shi-qiu-zhi.html">
+            
+                    
+                    150. 逆波兰表达式求值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.142" data-path="../1-200/151.-fan-zhuan-zi-fu-chuan-li-de-dan-ci.html">
+            
+                <a href="../1-200/151.-fan-zhuan-zi-fu-chuan-li-de-dan-ci.html">
+            
+                    
+                    151. 翻转字符串里的单词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.143" data-path="../1-200/152.-cheng-ji-zui-da-zi-xu-lie.html">
+            
+                <a href="../1-200/152.-cheng-ji-zui-da-zi-xu-lie.html">
+            
+                    
+                    152. 乘积最大子序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.144" data-path="../1-200/153.-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi.html">
+            
+                <a href="../1-200/153.-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi.html">
+            
+                    
+                    153. 寻找旋转排序数组中的最小值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.145" data-path="../1-200/154.-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi-ii.html">
+            
+                <a href="../1-200/154.-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi-ii.html">
+            
+                    
+                    154. 寻找旋转排序数组中的最小值 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.146" data-path="../1-200/155.-zui-xiao-zhan.html">
+            
+                <a href="../1-200/155.-zui-xiao-zhan.html">
+            
+                    
+                    155. 最小栈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.147" data-path="../1-200/160.-xiang-jiao-lian-biao.html">
+            
+                <a href="../1-200/160.-xiang-jiao-lian-biao.html">
+            
+                    
+                    160. 相交链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.148" data-path="../1-200/162.-xun-zhao-feng-zhi.html">
+            
+                <a href="../1-200/162.-xun-zhao-feng-zhi.html">
+            
+                    
+                    162. 寻找峰值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.149" data-path="../1-200/164.-zui-da-jian-ju.html">
+            
+                <a href="../1-200/164.-zui-da-jian-ju.html">
+            
+                    
+                    164. 最大间距
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.150" data-path="../1-200/165.-bi-jiao-ban-ben-hao.html">
+            
+                <a href="../1-200/165.-bi-jiao-ban-ben-hao.html">
+            
+                    
+                    165. 比较版本号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.151" data-path="../1-200/166.-fen-shu-dao-xiao-shu.html">
+            
+                <a href="../1-200/166.-fen-shu-dao-xiao-shu.html">
+            
+                    
+                    166. 分数到小数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.152" data-path="../1-200/167.-liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu.html">
+            
+                <a href="../1-200/167.-liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu.html">
+            
+                    
+                    167. 两数之和 II - 输入有序数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.153" data-path="../1-200/168.-excel-biao-lie-ming-cheng.html">
+            
+                <a href="../1-200/168.-excel-biao-lie-ming-cheng.html">
+            
+                    
+                    168. Excel表列名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.154" data-path="../1-200/169.-qiu-zhong-shu.html">
+            
+                <a href="../1-200/169.-qiu-zhong-shu.html">
+            
+                    
+                    169. 求众数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.155" data-path="../1-200/171.-excel-biao-lie-xu-hao.html">
+            
+                <a href="../1-200/171.-excel-biao-lie-xu-hao.html">
+            
+                    
+                    171. Excel表列序号
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.156" data-path="../1-200/172.-jie-cheng-hou-de-ling.html">
+            
+                <a href="../1-200/172.-jie-cheng-hou-de-ling.html">
+            
+                    
+                    172. 阶乘后的零
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.157" data-path="../1-200/173.-er-cha-sou-suo-shu-dai-qi.html">
+            
+                <a href="../1-200/173.-er-cha-sou-suo-shu-dai-qi.html">
+            
+                    
+                    173. 二叉搜索树迭代器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.158" data-path="../1-200/174.-di-xia-cheng-you-xi.html">
+            
+                <a href="../1-200/174.-di-xia-cheng-you-xi.html">
+            
+                    
+                    174. 地下城游戏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.159" data-path="../1-200/179.-zui-da-shu.html">
+            
+                <a href="../1-200/179.-zui-da-shu.html">
+            
+                    
+                    179. 最大数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.160" data-path="../1-200/187.-zhong-fu-de-dna-xu-lie.html">
+            
+                <a href="../1-200/187.-zhong-fu-de-dna-xu-lie.html">
+            
+                    
+                    187. 重复的DNA序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.161" data-path="../1-200/189.-xuan-zhuan-shu-zu.html">
+            
+                <a href="../1-200/189.-xuan-zhuan-shu-zu.html">
+            
+                    
+                    189. 旋转数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.162" data-path="../1-200/190.-dian-dao-er-jin-zhi-wei.html">
+            
+                <a href="../1-200/190.-dian-dao-er-jin-zhi-wei.html">
+            
+                    
+                    190. 颠倒二进制位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.163" data-path="../1-200/191.-wei-1-de-ge-shu.html">
+            
+                <a href="../1-200/191.-wei-1-de-ge-shu.html">
+            
+                    
+                    191. 位1的个数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.164" data-path="../1-200/198.-da-jia-jie-she.html">
+            
+                <a href="../1-200/198.-da-jia-jie-she.html">
+            
+                    
+                    198. 打家劫舍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.165" data-path="../1-200/199.-er-cha-shu-de-you-shi-tu.html">
+            
+                <a href="../1-200/199.-er-cha-shu-de-you-shi-tu.html">
+            
+                    
+                    199. 二叉树的右视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.166" data-path="../1-200/200.-dao-yu-de-ge-shu.html">
+            
+                <a href="../1-200/200.-dao-yu-de-ge-shu.html">
+            
+                    
+                    200. 岛屿的个数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">201~400</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="201.-shu-zi-fan-wei-an-wei-yu.html">
+            
+                <a href="201.-shu-zi-fan-wei-an-wei-yu.html">
+            
+                    
+                    201. 数字范围按位与
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="202.-kuai-le-shu.html">
+            
+                <a href="202.-kuai-le-shu.html">
+            
+                    
+                    202. 快乐数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="203.-yi-chu-lian-biao-yuan-su.html">
+            
+                <a href="203.-yi-chu-lian-biao-yuan-su.html">
+            
+                    
+                    203. 移除链表元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="204.-ji-shu-zhi-shu.html">
+            
+                <a href="204.-ji-shu-zhi-shu.html">
+            
+                    
+                    204. 计数质数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="205.-tong-gou-zi-fu-chuan.html">
+            
+                <a href="205.-tong-gou-zi-fu-chuan.html">
+            
+                    
+                    205. 同构字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="206.-fan-zhuan-lian-biao.html">
+            
+                <a href="206.-fan-zhuan-lian-biao.html">
+            
+                    
+                    206. 反转链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="209.-chang-du-zui-xiao-de-zi-shu-zu.html">
+            
+                <a href="209.-chang-du-zui-xiao-de-zi-shu-zu.html">
+            
+                    
+                    209. 长度最小的子数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.8" data-path="216.-zu-he-zong-he-iii.html">
+            
+                <a href="216.-zu-he-zong-he-iii.html">
+            
+                    
+                    216. 组合总和 III
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="217.-cun-zai-zhong-fu-yuan-su.html">
+            
+                <a href="217.-cun-zai-zhong-fu-yuan-su.html">
+            
+                    
+                    217. 存在重复元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="219.-cun-zai-zhong-fu-yuan-su-ii.html">
+            
+                <a href="219.-cun-zai-zhong-fu-yuan-su-ii.html">
+            
+                    
+                    219. 存在重复元素 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="222.-wan-quan-er-cha-shu-de-jie-dian-ge-shu.html">
+            
+                <a href="222.-wan-quan-er-cha-shu-de-jie-dian-ge-shu.html">
+            
+                    
+                    222. 完全二叉树的节点个数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="226.-fan-zhuan-er-cha-shu.html">
+            
+                <a href="226.-fan-zhuan-er-cha-shu.html">
+            
+                    
+                    226. 翻转二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="230.-er-cha-sou-suo-shu-zhong-dikxiao-de-yuan-su.html">
+            
+                <a href="230.-er-cha-sou-suo-shu-zhong-dikxiao-de-yuan-su.html">
+            
+                    
+                    230. 二叉搜索树中第K小的元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="234.-hui-wen-lian-biao.html">
+            
+                <a href="234.-hui-wen-lian-biao.html">
+            
+                    
+                    234. 回文链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="235.-er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian.html">
+            
+                <a href="235.-er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian.html">
+            
+                    
+                    235. 二叉搜索树的最近公共祖先
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="237.-shan-chu-lian-biao-zhong-de-jie-dian.html">
+            
+                <a href="237.-shan-chu-lian-biao-zhong-de-jie-dian.html">
+            
+                    
+                    237. 删除链表中的节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="238.-chu-zi-shen-yi-wai-shu-zu-de-cheng-ji.html">
+            
+                <a href="238.-chu-zi-shen-yi-wai-shu-zu-de-cheng-ji.html">
+            
+                    
+                    238. 除自身以外数组的乘积
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="242.-you-xiao-de-zi-mu-yi-wei-ci.html">
+            
+                <a href="242.-you-xiao-de-zi-mu-yi-wei-ci.html">
+            
+                    
+                    242. 有效的字母异位词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.19" data-path="257.-er-cha-shu-de-suo-you-lu-jing.html">
+            
+                <a href="257.-er-cha-shu-de-suo-you-lu-jing.html">
+            
+                    
+                    257. 二叉树的所有路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.20" data-path="260.-zhi-chu-xian-yi-ci-de-shu-zi-iii.html">
+            
+                <a href="260.-zhi-chu-xian-yi-ci-de-shu-zi-iii.html">
+            
+                    
+                    260. 只出现一次的数字 III
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.21" data-path="266.-palindrome-permutation.html">
+            
+                <a href="266.-palindrome-permutation.html">
+            
+                    
+                    266. Palindrome Permutation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.22" data-path="268.-que-shi-shu-zi.html">
+            
+                <a href="268.-que-shi-shu-zi.html">
+            
+                    
+                    268. 缺失数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.23" data-path="280.-wiggle-sort-fu-fei-ti.html">
+            
+                <a href="280.-wiggle-sort-fu-fei-ti.html">
+            
+                    
+                    280. Wiggle Sort（付费题）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.24" data-path="283.-yi-dong-ling.html">
+            
+                <a href="283.-yi-dong-ling.html">
+            
+                    
+                    283. 移动零
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.25" data-path="290.-dan-ci-mo-shi.html">
+            
+                <a href="290.-dan-ci-mo-shi.html">
+            
+                    
+                    290. 单词模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.26" data-path="292.-nim-you-xi.html">
+            
+                <a href="292.-nim-you-xi.html">
+            
+                    
+                    292. Nim游戏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.27" data-path="293.-flip-game.html">
+            
+                <a href="293.-flip-game.html">
+            
+                    
+                    293. Flip Game
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.28" data-path="300.-zui-chang-shang-sheng-zi-xu-lie.html">
+            
+                <a href="300.-zui-chang-shang-sheng-zi-xu-lie.html">
+            
+                    
+                    300. 最长上升子序列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.29" data-path="328.-qi-ou-lian-biao.html">
+            
+                <a href="328.-qi-ou-lian-biao.html">
+            
+                    
+                    328. 奇偶链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.30" data-path="338.-bi-te-wei-ji-shu.html">
+            
+                <a href="338.-bi-te-wei-ji-shu.html">
+            
+                    
+                    338. 比特位计数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.31" data-path="339.-nested-list-weight-sum-fu-fei-ti.html">
+            
+                <a href="339.-nested-list-weight-sum-fu-fei-ti.html">
+            
+                    
+                    339. Nested List Weight Sum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.32" data-path="344.-fan-zhuan-zi-fu-chuan.html">
+            
+                <a href="344.-fan-zhuan-zi-fu-chuan.html">
+            
+                    
+                    344. 反转字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.33" data-path="346.-moving-average-from-data-stream.html">
+            
+                <a href="346.-moving-average-from-data-stream.html">
+            
+                    
+                    346. Moving Average from Data Stream
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.34" data-path="349.-liang-ge-shu-zu-de-jiao-ji.html">
+            
+                <a href="349.-liang-ge-shu-zu-de-jiao-ji.html">
+            
+                    
+                    349. 两个数组的交集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.35" data-path="350.-liang-ge-shu-zu-de-jiao-ji-ii.html">
+            
+                <a href="350.-liang-ge-shu-zu-de-jiao-ji-ii.html">
+            
+                    
+                    350. 两个数组的交集 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.36" data-path="359.-logger-rate-limiter.html">
+            
+                <a href="359.-logger-rate-limiter.html">
+            
+                    
+                    359. Logger Rate Limiter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.37" data-path="364.-nested-list-weight-sum-ii.html">
+            
+                <a href="364.-nested-list-weight-sum-ii.html">
+            
+                    
+                    364. Nested List Weight Sum II（TODO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.38" data-path="366.-find-leaves-of-binary-tree-fu-fei-ti.html">
+            
+                <a href="366.-find-leaves-of-binary-tree-fu-fei-ti.html">
+            
+                    
+                    366. Find Leaves of Binary Tree
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.39" data-path="370.-range-addition.html">
+            
+                <a href="370.-range-addition.html">
+            
+                    
+                    370. Range Addition
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">401~600</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../401-600/406.-gen-ju-shen-gao-zhong-jian-dui-lie.html">
+            
+                <a href="../401-600/406.-gen-ju-shen-gao-zhong-jian-dui-lie.html">
+            
+                    
+                    406. 根据身高重建队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../401-600/413.-deng-cha-shu-lie-hua-fen.html">
+            
+                <a href="../401-600/413.-deng-cha-shu-lie-hua-fen.html">
+            
+                    
+                    413. 等差数列划分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../401-600/419.-jia-ban-shang-de-zhan-jian.html">
+            
+                <a href="../401-600/419.-jia-ban-shang-de-zhan-jian.html">
+            
+                    
+                    419. 甲板上的战舰
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../401-600/430.-bian-ping-hua-duo-ji-shuang-xiang-lian-biao.html">
+            
+                <a href="../401-600/430.-bian-ping-hua-duo-ji-shuang-xiang-lian-biao.html">
+            
+                    
+                    430. 扁平化多级双向链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../401-600/433.-zui-xiao-ji-yin-bian-hua.html">
+            
+                <a href="../401-600/433.-zui-xiao-ji-yin-bian-hua.html">
+            
+                    
+                    433. 最小基因变化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../401-600/440.-zi-dian-xu-de-dikxiao-shu-zi.html">
+            
+                <a href="../401-600/440.-zi-dian-xu-de-dikxiao-shu-zi.html">
+            
+                    
+                    440. 字典序的第K小数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../401-600/442.-shu-zu-zhong-zhong-fu-de-shu-ju.html">
+            
+                <a href="../401-600/442.-shu-zu-zhong-zhong-fu-de-shu-ju.html">
+            
+                    
+                    442. 数组中重复的数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../401-600/445.-liang-shu-xiang-jia-ii.html">
+            
+                <a href="../401-600/445.-liang-shu-xiang-jia-ii.html">
+            
+                    
+                    445. 两数相加 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="../401-600/452.-yong-zui-shao-shu-liang-de-jian-yin-bao-qi-qiu.html">
+            
+                <a href="../401-600/452.-yong-zui-shao-shu-liang-de-jian-yin-bao-qi-qiu.html">
+            
+                    
+                    452. 用最少数量的箭引爆气球
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="../401-600/453.-zui-xiao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-deng.html">
+            
+                <a href="../401-600/453.-zui-xiao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-deng.html">
+            
+                    
+                    453. 最小移动次数使数组元素相等
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="../401-600/461.-han-ming-ju-li.html">
+            
+                <a href="../401-600/461.-han-ming-ju-li.html">
+            
+                    
+                    461. 汉明距离
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="../401-600/462.-zui-shao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-deng-ii.html">
+            
+                <a href="../401-600/462.-zui-shao-yi-dong-ci-shu-shi-shu-zu-yuan-su-xiang-deng-ii.html">
+            
+                    
+                    462. 最少移动次数使数组元素相等 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="../401-600/463.-dao-yu-de-zhou-chang.html">
+            
+                <a href="../401-600/463.-dao-yu-de-zhou-chang.html">
+            
+                    
+                    463. 岛屿的周长
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="../401-600/476.-shu-zi-de-bu-shu.html">
+            
+                <a href="../401-600/476.-shu-zi-de-bu-shu.html">
+            
+                    
+                    476. 数字的补数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="../401-600/484.-find-permutation.html">
+            
+                <a href="../401-600/484.-find-permutation.html">
+            
+                    
+                    484. Find Permutation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="../401-600/485.-zui-da-lian-xu-1-de-ge-shu.html">
+            
+                <a href="../401-600/485.-zui-da-lian-xu-1-de-ge-shu.html">
+            
+                    
+                    485. 最大连续1的个数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="../401-600/496.-xia-yi-ge-geng-da-yuan-su-i.html">
+            
+                <a href="../401-600/496.-xia-yi-ge-geng-da-yuan-su-i.html">
+            
+                    
+                    496. 下一个更大元素 I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.18" data-path="../401-600/500.-jian-pan-hang.html">
+            
+                <a href="../401-600/500.-jian-pan-hang.html">
+            
+                    
+                    500. 键盘行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.19" data-path="../401-600/508.-chu-xian-ci-shu-zui-duo-de-zi-shu-yuan-su-he.html">
+            
+                <a href="../401-600/508.-chu-xian-ci-shu-zui-duo-de-zi-shu-yuan-su-he.html">
+            
+                    
+                    508. 出现次数最多的子树元素和
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.20" data-path="../401-600/513.-zhao-shu-zuo-xia-jiao-de-zhi.html">
+            
+                <a href="../401-600/513.-zhao-shu-zuo-xia-jiao-de-zhi.html">
+            
+                    
+                    513. 找树左下角的值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.21" data-path="../401-600/515.-zai-mei-ge-shu-hang-zhong-zhao-zui-da-zhi.html">
+            
+                <a href="../401-600/515.-zai-mei-ge-shu-hang-zhong-zhao-zui-da-zhi.html">
+            
+                    
+                    515. 在每个树行中找最大值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.22" data-path="../401-600/518.-ling-qian-dui-huan-ii.html">
+            
+                <a href="../401-600/518.-ling-qian-dui-huan-ii.html">
+            
+                    
+                    518. 零钱兑换 II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.23" data-path="../401-600/520.-jian-ce-da-xie-zi-mu.html">
+            
+                <a href="../401-600/520.-jian-ce-da-xie-zi-mu.html">
+            
+                    
+                    520. 检测大写字母
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.24" data-path="../401-600/531.-lonely-pixel-i.html">
+            
+                <a href="../401-600/531.-lonely-pixel-i.html">
+            
+                    
+                    531. Lonely Pixel I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.25" data-path="../401-600/537.-fu-shu-cheng-fa.html">
+            
+                <a href="../401-600/537.-fu-shu-cheng-fa.html">
+            
+                    
+                    537. 复数乘法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.26" data-path="../401-600/540.-you-xu-shu-zu-zhong-de-dan-yi-yuan-su.html">
+            
+                <a href="../401-600/540.-you-xu-shu-zu-zhong-de-dan-yi-yuan-su.html">
+            
+                    
+                    540. 有序数组中的单一元素
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.27" data-path="../401-600/544.-output-contest-matches-fu-fei-ti.html">
+            
+                <a href="../401-600/544.-output-contest-matches-fu-fei-ti.html">
+            
+                    
+                    544. Output Contest Matches
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.28" data-path="../401-600/553.-zui-you-chu-fa.html">
+            
+                <a href="../401-600/553.-zui-you-chu-fa.html">
+            
+                    
+                    553. 最优除法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.29" data-path="../401-600/557.-fan-zhuan-zi-fu-chuan-zhong-de-dan-ci-iii.html">
+            
+                <a href="../401-600/557.-fan-zhuan-zi-fu-chuan-zhong-de-dan-ci-iii.html">
+            
+                    
+                    557. 反转字符串中的单词 III
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.30" data-path="../401-600/561.-shu-zu-chai-fen-i.html">
+            
+                <a href="../401-600/561.-shu-zu-chai-fen-i.html">
+            
+                    
+                    561. 数组拆分 I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.31" data-path="../401-600/566.-zhong-su-ju-zhen.html">
+            
+                <a href="../401-600/566.-zhong-su-ju-zhen.html">
+            
+                    
+                    566. 重塑矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.32" data-path="../401-600/575.-fen-tang-guo.html">
+            
+                <a href="../401-600/575.-fen-tang-guo.html">
+            
+                    
+                    575. 分糖果
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">601~800</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../601-800/609.-zai-xi-tong-zhong-cha-zhao-zhong-fu-wen-jian.html">
+            
+                <a href="../601-800/609.-zai-xi-tong-zhong-cha-zhao-zhong-fu-wen-jian.html">
+            
+                    
+                    609. 在系统中查找重复文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../601-800/617.-he-bing-er-cha-shu.html">
+            
+                <a href="../601-800/617.-he-bing-er-cha-shu.html">
+            
+                    
+                    617. 合并二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../601-800/623.-zai-er-cha-shu-zhong-zeng-jia-yi-hang.html">
+            
+                <a href="../601-800/623.-zai-er-cha-shu-zhong-zeng-jia-yi-hang.html">
+            
+                    
+                    623. 在二叉树中增加一行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../601-800/627.-jiao-huan-gong-zi.html">
+            
+                <a href="../601-800/627.-jiao-huan-gong-zi.html">
+            
+                    
+                    627. 交换工资
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../601-800/637.-er-cha-shu-de-ceng-ping-jun-zhi.html">
+            
+                <a href="../601-800/637.-er-cha-shu-de-ceng-ping-jun-zhi.html">
+            
+                    
+                    637. 二叉树的层平均值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../601-800/647.-hui-wen-zi-chuan.html">
+            
+                <a href="../601-800/647.-hui-wen-zi-chuan.html">
+            
+                    
+                    647. 回文子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="../601-800/654.-zui-da-er-cha-shu.html">
+            
+                <a href="../601-800/654.-zui-da-er-cha-shu.html">
+            
+                    
+                    654. 最大二叉树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="../601-800/657.-ji-qi-ren-neng-fou-fan-hui-yuan-dian.html">
+            
+                <a href="../601-800/657.-ji-qi-ren-neng-fou-fan-hui-yuan-dian.html">
+            
+                    
+                    657. 机器人能否返回原点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="../601-800/669.-xiu-jian-er-cha-sou-suo-shu.html">
+            
+                <a href="../601-800/669.-xiu-jian-er-cha-sou-suo-shu.html">
+            
+                    
+                    669. 修剪二叉搜索树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="../601-800/677.-jian-zhi-ying-she.html">
+            
+                <a href="../601-800/677.-jian-zhi-ying-she.html">
+            
+                    
+                    677. 键值映射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="../601-800/682.-bang-qiu-bi-sai.html">
+            
+                <a href="../601-800/682.-bang-qiu-bi-sai.html">
+            
+                    
+                    682. 棒球比赛
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="../601-800/690.-yuan-gong-de-zhong-yao-xing.html">
+            
+                <a href="../601-800/690.-yuan-gong-de-zhong-yao-xing.html">
+            
+                    
+                    690. 员工的重要性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.13" data-path="../601-800/693.-jiao-ti-wei-er-jin-zhi-shu.html">
+            
+                <a href="../601-800/693.-jiao-ti-wei-er-jin-zhi-shu.html">
+            
+                    
+                    693. 交替位二进制数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.14" data-path="../601-800/695.-dao-yu-de-zui-da-mian-ji.html">
+            
+                <a href="../601-800/695.-dao-yu-de-zui-da-mian-ji.html">
+            
+                    
+                    695. 岛屿的最大面积
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.15" data-path="../601-800/723.-candy-crush.html">
+            
+                <a href="../601-800/723.-candy-crush.html">
+            
+                    
+                    723. Candy Crush
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.16" data-path="../601-800/728.-zi-chu-shu.html">
+            
+                <a href="../601-800/728.-zi-chu-shu.html">
+            
+                    
+                    728. 自除数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.17" data-path="../601-800/732.-wo-de-ri-cheng-an-pai-biao-iii.html">
+            
+                <a href="../601-800/732.-wo-de-ri-cheng-an-pai-biao-iii.html">
+            
+                    
+                    732. 我的日程安排表 III
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.18" data-path="../601-800/739.-mei-ri-wen-du.html">
+            
+                <a href="../601-800/739.-mei-ri-wen-du.html">
+            
+                    
+                    739.每日温度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.19" data-path="../601-800/748.-zui-duan-wan-zheng-ci.html">
+            
+                <a href="../601-800/748.-zui-duan-wan-zheng-ci.html">
+            
+                    
+                    748. 最短完整词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.20" data-path="../601-800/754.-dao-da-zhong-dian-shu-zi.html">
+            
+                <a href="../601-800/754.-dao-da-zhong-dian-shu-zi.html">
+            
+                    
+                    754. 到达终点数字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.21" data-path="../601-800/755.-dao-shui.html">
+            
+                <a href="../601-800/755.-dao-shui.html">
+            
+                    
+                    755. 倒水
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.22" data-path="../601-800/760.-find-anagram-mappings.html">
+            
+                <a href="../601-800/760.-find-anagram-mappings.html">
+            
+                    
+                    760. Find Anagram Mappings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.23" data-path="../601-800/762.-er-jin-zhi-biao-shi-zhong-zhi-shu-ge-ji-suan-zhi-wei.html">
+            
+                <a href="../601-800/762.-er-jin-zhi-biao-shi-zhong-zhi-shu-ge-ji-suan-zhi-wei.html">
+            
+                    
+                    762. 二进制表示中质数个计算置位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.24" data-path="../601-800/763.-hua-fen-zi-mu-qu-jian.html">
+            
+                <a href="../601-800/763.-hua-fen-zi-mu-qu-jian.html">
+            
+                    
+                    763. 划分字母区间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.25" data-path="../601-800/766.-tuo-pu-li-ju-zhen.html">
+            
+                <a href="../601-800/766.-tuo-pu-li-ju-zhen.html">
+            
+                    
+                    766. 托普利茨矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">801~1000</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../801-1000/817.-lian-biao-zu-jian.html">
+            
+                <a href="../801-1000/817.-lian-biao-zu-jian.html">
+            
+                    
+                    817. 链表组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../801-1000/845.-shu-zu-zhong-de-zui-chang-shan-mai.html">
+            
+                <a href="../801-1000/845.-shu-zu-zhong-de-zui-chang-shan-mai.html">
+            
+                    
+                    845. 数组中的最长山脉
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../801-1000/852.-shan-mai-shu-zu-de-feng-ding-suo-yin.html">
+            
+                <a href="../801-1000/852.-shan-mai-shu-zu-de-feng-ding-suo-yin.html">
+            
+                    
+                    852. 山脉数组的峰顶索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../801-1000/876.-lian-biao-de-zhong-jian-jie-dian.html">
+            
+                <a href="../801-1000/876.-lian-biao-de-zhong-jian-jie-dian.html">
+            
+                    
+                    876. 链表的中间结点
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">1000~1200</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../1000-1200/1014.-zui-jia-guan-guang-zu-he.html">
+            
+                <a href="../1000-1200/1014.-zui-jia-guan-guang-zu-he.html">
+            
+                    
+                    1014. 最佳观光组合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../1000-1200/1254.-tong-ji-feng-bi-dao-yu-de-shu-mu.html">
+            
+                <a href="../1000-1200/1254.-tong-ji-feng-bi-dao-yu-de-shu-mu.html">
+            
+                    
+                    1254. 统计封闭岛屿的数目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >216. 组合总和 III</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="216-&#x7EC4;&#x5408;&#x603B;&#x548C;-iii">216. &#x7EC4;&#x5408;&#x603B;&#x548C; III</h1>
+<p><a href="https://leetcode-cn.com/problems/combination-sum-iii/" target="_blank">https://leetcode-cn.com/problems/combination-sum-iii/</a></p>
+<h2 id="&#x89E3;&#x6CD5;&#x4E00;&#xFF1A;&#x56DE;&#x6EAF;">&#x89E3;&#x6CD5;&#x4E00;&#xFF1A;&#x56DE;&#x6EAF;</h2>
+<p>&#x7ECF;&#x5178;&#x56DE;&#x6EAF;&#xFF0C;js&#x548C;py&#x4E0D;&#x540C;&#xFF0C;&#x56E0;&#x6B64;&#x6CA1;&#x6CD5;&#x7528;&#x56DE;&#x6EAF;&#x603B;&#x7ED3;&#x4E2D;&#x7684;&#x7B80;&#x5316;&#x683C;&#x5F0F;&#x3002;&#x6BCF;&#x5C42;&#x4ECE;start+1&#x5F00;&#x59CB;&#x5411;&#x540E;dfs&#x641C;&#x7D22;&#xFF0C;&#x7B2C;1&#x5C42;&#x4ECE;0&#x5F00;&#x59CB;&#xFF0C;&#x8BBE;&#x7F6E;&#x4E24;&#x4E2A;&#x9012;&#x5F52;&#x51FA;&#x53E3;&#xFF0C;tmp&#x957F;&#x5EA6;&#x8D85;&#x8FC7;k&#xFF0C;&#x6216;&#x8005;tmp&#x4E4B;&#x548C;&#x8D85;&#x8FC7;n&#x3002;&#x601D;&#x8DEF;&#x5F88;&#x76F4;&#x89C2;&#xFF0C;&#x7F3A;&#x70B9;&#x662F;&#x6CA1;&#x6709;&#x526A;&#x679D;&#xFF0C;&#x901F;&#x5EA6;&#x8F83;&#x6162;&#xFF08;180ms&#xFF09;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">/**
+ * @param {number} k
+ * @param {number} n
+ * @return {number[][]}
+ */</span>
+<span class="hljs-keyword">var</span> combinationSum3 = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">k, n</span>) </span>{
+    <span class="hljs-keyword">const</span> ret = []
+
+    <span class="hljs-keyword">const</span> backtrack = (tmpList, start, sum) =&gt; {
+        <span class="hljs-keyword">if</span> (tmpList.length &gt; k) <span class="hljs-keyword">return</span>
+        <span class="hljs-keyword">if</span> (sum &gt; n) <span class="hljs-keyword">return</span>
+        <span class="hljs-keyword">if</span> (sum === n &amp;&amp; tmpList.length === k) {
+            ret.push(<span class="hljs-built_in">Array</span>.from(tmpList))
+            <span class="hljs-keyword">return</span>
+        }
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = start + <span class="hljs-number">1</span>; i &lt; <span class="hljs-number">10</span>; i++) {
+            tmpList.push(i)
+            backtrack(tmpList, i, sum+i)
+            tmpList.pop()
+        }
+    }
+
+    backtrack([], <span class="hljs-number">0</span>, <span class="hljs-number">0</span>)
+    <span class="hljs-keyword">return</span> ret
+};
+</code></pre>
+<p>&#x4F18;&#x5316;&#xFF1A;&#x526A;&#x679D;&#xFF0C;&#x7701;&#x7565;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x641C;&#x7D22;&#xFF0C;&#x56E0;&#x4E3A;&#x641C;&#x7D22;&#x8303;&#x56F4;&#x662F;<strong>&#x9012;&#x589E;</strong>&#x7684;&#xFF0C;&#x53EA;&#x8981;&#x5F53;&#x524D;&#x7EC4;&#x5408;&#x603B;&#x548C;&#x5927;&#x4E8E;n&#xFF0C;&#x5219;&#x4E0D;&#x7528;&#x518D;&#x5F80;&#x540E;&#x641C;&#x7D22;&#x4E86;&#x3002;56ms&#xFF0C;beat100%</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">/**
+ * @param {number} k
+ * @param {number} n
+ * @return {number[][]}
+ */</span>
+<span class="hljs-keyword">var</span> combinationSum3 = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">k, n</span>) </span>{
+    <span class="hljs-keyword">const</span> ret = []
+    <span class="hljs-comment">//&#x56DE;&#x6EAF;&#x51FD;&#x6570;&#xFF0C;tmp&#x8BB0;&#x5F55;&#x5F53;&#x524D;&#x7EC4;&#x5408;&#x5143;&#x7D20;&#xFF0C;start&#x4E3A;&#x672C;&#x5C42;&#x641C;&#x7D22;&#x8D77;&#x70B9;&#xFF0C;sum&#x4E3A;&#x603B;&#x548C;</span>
+    <span class="hljs-keyword">const</span> backtrack = (tmpList, start, sum) =&gt; {    
+        <span class="hljs-keyword">if</span> (tmpList.length &gt; k) <span class="hljs-keyword">return</span>
+        <span class="hljs-keyword">if</span> (sum === n &amp;&amp; tmpList.length === k) {
+            ret.push(<span class="hljs-built_in">Array</span>.from(tmpList))
+            <span class="hljs-keyword">return</span>
+        }
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = start + <span class="hljs-number">1</span>; i &lt; <span class="hljs-number">10</span>; i++) {  <span class="hljs-comment">// &#x4ECE;start+1&#x5411;&#x540E;&#x641C;&#x7D22;</span>
+            <span class="hljs-keyword">if</span> (sum + i &gt; n) <span class="hljs-keyword">break</span>  <span class="hljs-comment">//&#x603B;&#x548C;&#x8D85;&#x8FC7;n&#xFF0C;&#x5219;&#x540E;&#x9762;&#x7684;&#x5143;&#x7D20;&#x90FD;&#x4E0D;&#x7528;&#x518D;&#x904D;&#x5386;&#x4E86;&#xFF08;&#x5FC5;&#x7136;&#x4E5F;&#x8D85;</span>
+            tmpList.push(i)
+            backtrack(tmpList, i, sum+i)
+            tmpList.pop()
+        }
+    }
+
+    backtrack([], <span class="hljs-number">0</span>, <span class="hljs-number">0</span>)
+    <span class="hljs-keyword">return</span> ret
+};
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="209.-chang-du-zui-xiao-de-zi-shu-zu.html" class="navigation navigation-prev " aria-label="Previous page: 209. 长度最小的子数组">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="217.-cun-zai-zhong-fu-yuan-su.html" class="navigation navigation-next " aria-label="Next page: 217. 存在重复元素">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"216. 组合总和 III","level":"3.8","depth":1,"next":{"title":"217. 存在重复元素","level":"3.9","depth":1,"path":"201-400/217.-cun-zai-zhong-fu-yuan-su.md","ref":"201-400/217.-cun-zai-zhong-fu-yuan-su.md","articles":[]},"previous":{"title":"209. 长度最小的子数组","level":"3.7","depth":1,"path":"201-400/209.-chang-du-zui-xiao-de-zi-shu-zu.md","ref":"201-400/209.-chang-du-zui-xiao-de-zi-shu-zu.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"201-400/216.-zu-he-zong-he-iii.md","mtime":"2020-09-18T15:45:42.933Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-18T15:54:25.310Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
