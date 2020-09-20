@@ -287,6 +287,7 @@
 
 ## 1000~1200
 
+* [1002.查找常用字符](1000-1200/1002.-cha-zhao-chang-yong-zi-fu.md)
 * [1014. 最佳观光组合](1000-1200/1014.-zui-jia-guan-guang-zu-he.md)
 * [1254. 统计封闭岛屿的数目](1000-1200/1254.-tong-ji-feng-bi-dao-yu-de-shu-mu.md)
 
