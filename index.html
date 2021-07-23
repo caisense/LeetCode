@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -8,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -16,24 +18,23 @@
       repo: '',
       loadSidebar: true,
       search: {
-            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-            noData: '找不到结果',//搜索不到结果时显示
-            paths: 'auto',//自动
-            placeholder: 'search',//搜索框提示
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        noData: 'no result',//搜索不到结果时显示
+        paths: 'auto',//自动
+        placeholder: 'search',//搜索框提示
       }
-
-  }
-</script>
-<!-- Docsify v4 -->
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-<!-- <script src="//unpkg.com/docsify"></script> -->
-<!-- <script src="//unpkg.com/prismjs/components/prism-bash.js"></script> -->
-<script src="//unpkg.com/prismjs/components/prism-python.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-java.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-javascript.js"></script>
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <!-- 代码高亮 -->
+  <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-javascript.js"></script>
 
 
 </body>
+
 </html>
