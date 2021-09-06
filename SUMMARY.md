@@ -121,7 +121,7 @@
 * [118. 杨辉三角](1-200/118.-yang-hui-san-jiao.md)
 * [119. 杨辉三角 II](1-200/119.-yang-hui-san-jiao-ii.md)
 * [120. 三角形最小路径和](1-200/120.-san-jiao-xing-zui-xiao-lu-jing-he.md)
-* [121. 买卖股票的最佳时机](1-200/est Time to Buy and Sell Stock.md)
+* [121. 买卖股票的最佳时机](1-200/Best Time to Buy and Sell Stock.md)
 * [122. 买卖股票的最佳时机 II](1-200/122.-mai-mai-gu-piao-de-zui-jia-shi-ji-ii.md)
 * [123. 买卖股票的最佳时机 III](1-200/123.-mai-mai-gu-piao-de-zui-jia-shi-ji-iii.md)
 * [124. 二叉树中的最大路径和](1-200/124.-er-cha-shu-zhong-de-zui-da-lu-jing-he.md)
