@@ -3,6 +3,7 @@
 >* [Caisense的刷题笔记](README.md)
 >* [链表总结](lian-biao-zong-jie.md)
 >* [回溯总结](hui-su-zong-jie.md)
+>* [BFS总结](BFS总结.md)
 
 > # 1~200
 
@@ -276,6 +277,7 @@
 >* [732. 我的日程安排表 III](601-800/732.-wo-de-ri-cheng-an-pai-biao-iii.md)
 >* [739.每日温度](601-800/739.-mei-ri-wen-du.md)
 >* [748. 最短完整词](601-800/748.-zui-duan-wan-zheng-ci.md)
+>* [752.打开转盘锁](601-800/752.打开转盘锁.md)
 >* [754. 到达终点数字](601-800/754.-dao-da-zhong-dian-shu-zi.md)
 >* [755. 倒水](601-800/755.-dao-shui.md)
 >* [760. Find Anagram Mappings](601-800/760.-find-anagram-mappings.md)
