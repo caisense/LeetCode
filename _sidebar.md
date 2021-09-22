@@ -1,9 +1,10 @@
 > # 目录
 
 >* [Caisense的刷题笔记](README.md)
->* [链表总结](lian-biao-zong-jie.md)
->* [回溯总结](hui-su-zong-jie.md)
+>* [链表总结](链表总结.md)
+>* [回溯总结](回溯总结.md)
 >* [BFS总结](BFS总结.md)
+>* [二分总结](二分总结.md)
 
 > # 1~200
 
@@ -39,7 +40,7 @@
 >* [31. 下一个排列](1-200/31.-xia-yi-ge-pai-lie.md)
 >* [32. 最长有效括号](1-200/32.-zui-chang-you-xiao-kuo-hao.md)
 >* [33. 搜索旋转排序数组](1-200/33.-sou-suo-xuan-zhuan-pai-xu-shu-zu.md)
->* [34. 在排序数组中查找元素的第一个和最后一个位置](1-200/34.-zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-ge-he-zui-hou-yi-ge-wei-zhi.md)
+>* [34. 在排序数组中查找元素的第一个和最后一个位置](1-200/34.在排序数组中查找元素的第一个和最后一个位置.md)
 >* [35. 搜索插入位置](1-200/35.-sou-suo-cha-ru-wei-zhi.md)
 >* [36. 有效的数独](1-200/36.-you-xiao-de-shu-du.md)
 >* [37. 解数独](1-200/37.-jie-shu-du.md)
@@ -271,6 +272,7 @@
 >* [690. 员工的重要性](601-800/690.-yuan-gong-de-zhong-yao-xing.md)
 >* [693. 交替位二进制数](601-800/693.-jiao-ti-wei-er-jin-zhi-shu.md)
 >* [695. 岛屿的最大面积](601-800/695.-dao-yu-de-zui-da-mian-ji.md)
+>* [704.二分查找](601-800/704.二分查找.md)
 >* [714.买卖股票的最佳时机含手续费](601-800/714.买卖股票的最佳时机含手续费.md)
 >* [723. Candy Crush](601-800/723.-candy-crush.md)
 >* [728. 自除数](601-800/728.-zi-chu-shu.md)
