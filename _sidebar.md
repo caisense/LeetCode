@@ -151,7 +151,7 @@
 >* [150. 逆波兰表达式求值](1-200/150.-ni-bo-lan-biao-da-shi-qiu-zhi.md)
 >* [151. 翻转字符串里的单词](1-200/151.-fan-zhuan-zi-fu-chuan-li-de-dan-ci.md)
 >* [152. 乘积最大子序列](1-200/152.-cheng-ji-zui-da-zi-xu-lie.md)
->* [153. 寻找旋转排序数组中的最小值](1-200/153.-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi.md)
+>* [153. 寻找旋转排序数组中的最小值](1-200/153.寻找旋转排序数组中的最小值.md)
 >* [154. 寻找旋转排序数组中的最小值 II](1-200/154.-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-zui-xiao-zhi-ii.md)
 >* [155. 最小栈](1-200/155.-zui-xiao-zhan.md)
 >* [160. 相交链表](1-200/160.-xiang-jiao-lian-biao.md)
