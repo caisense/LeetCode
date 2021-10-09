@@ -223,6 +223,7 @@
 >* [364. Nested List Weight Sum II（TODO](201-400/364.-nested-list-weight-sum-ii.md)
 >* [366. Find Leaves of Binary Tree](201-400/366.-find-leaves-of-binary-tree-fu-fei-ti.md)
 >* [370. Range Addition](201-400/370.-range-addition.md)
+>* [374.猜数字大小](201-400/374.猜数字大小.md)
 
 ># 401~600
 
@@ -295,8 +296,9 @@
 
 >* [817. 链表组件](801-1000/817.-lian-biao-zu-jian.md)
 >* [845. 数组中的最长山脉](801-1000/845.-shu-zu-zhong-de-zui-chang-shan-mai.md)
->* [852. 山脉数组的峰顶索引](801-1000/852.-shan-mai-shu-zu-de-feng-ding-suo-yin.md)
+>*[852.山脉数组的峰顶索引](801-1000/852.山脉数组的峰顶索引.md)
 >* [876. 链表的中间结点](801-1000/876.-lian-biao-de-zhong-jian-jie-dian.md)
+
 
 ># 1000~1200
 
