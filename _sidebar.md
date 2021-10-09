@@ -247,7 +247,7 @@
 >* [496. 下一个更大元素 I](401-600/496.-xia-yi-ge-geng-da-yuan-su-i.md)
 >* [500. 键盘行](401-600/500.-jian-pan-hang.md)
 >* [508. 出现次数最多的子树元素和](401-600/508.-chu-xian-ci-shu-zui-duo-de-zi-shu-yuan-su-he.md)
->*[509.斐波那契数](401-600/509.斐波那契数.md)
+>* [509.斐波那契数](401-600/509.斐波那契数.md)
 >* [513. 找树左下角的值](401-600/513.-zhao-shu-zuo-xia-jiao-de-zhi.md)
 >* [515. 在每个树行中找最大值](401-600/515.-zai-mei-ge-shu-hang-zhong-zhao-zui-da-zhi.md)
 >* [518. 零钱兑换 II](401-600/518.-ling-qian-dui-huan-ii.md)
@@ -297,7 +297,7 @@
 
 >* [817. 链表组件](801-1000/817.-lian-biao-zu-jian.md)
 >* [845. 数组中的最长山脉](801-1000/845.-shu-zu-zhong-de-zui-chang-shan-mai.md)
->*[852.山脉数组的峰顶索引](801-1000/852.山脉数组的峰顶索引.md)
+>* [852.山脉数组的峰顶索引](801-1000/852.山脉数组的峰顶索引.md)
 >* [876. 链表的中间结点](801-1000/876.-lian-biao-de-zhong-jian-jie-dian.md)
 
 
