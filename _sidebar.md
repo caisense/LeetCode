@@ -301,8 +301,9 @@
 >* [876. 链表的中间结点](801-1000/876.-lian-biao-de-zhong-jian-jie-dian.md)
 
 
-># 1000~1200
+># 1000~2000
 
->* [1002.查找常用字符](1000-1200/1002.-cha-zhao-chang-yong-zi-fu.md)
->* [1014. 最佳观光组合](1000-1200/1014.-zui-jia-guan-guang-zu-he.md)
->* [1254. 统计封闭岛屿的数目](1000-1200/1254.-tong-ji-feng-bi-dao-yu-de-shu-mu.md)
+>* [1002.查找常用字符](1000-2000/1002.-cha-zhao-chang-yong-zi-fu.md)
+>* [1014. 最佳观光组合](1000-2000/1014.-zui-jia-guan-guang-zu-he.md)
+>* [1254. 统计封闭岛屿的数目](1000-2000/1254.-tong-ji-feng-bi-dao-yu-de-shu-mu.md)
+>* [1909.删除一个元素使数组严格递增](1000-2000/1909.删除一个元素使数组严格递增.md)
