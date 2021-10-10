@@ -225,6 +225,7 @@
 >* [366. Find Leaves of Binary Tree](201-400/366.-find-leaves-of-binary-tree-fu-fei-ti.md)
 >* [370. Range Addition](201-400/370.-range-addition.md)
 >* [374.猜数字大小](201-400/374.猜数字大小.md)
+>* [378.有序矩阵中第 K 小的元素](201-400/378.有序矩阵中第 K 小的元素.md)
 
 ># 401~600
 
