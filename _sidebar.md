@@ -234,6 +234,7 @@
 >* [419. 甲板上的战舰](401-600/419.-jia-ban-shang-de-zhan-jian.md)
 >* [430. 扁平化多级双向链表](401-600/430.-bian-ping-hua-duo-ji-shuang-xiang-lian-biao.md)
 >* [433. 最小基因变化](401-600/433.-zui-xiao-ji-yin-bian-hua.md)
+>* [438.找到字符串中所有字母异位词](401-600/438.找到字符串中所有字母异位词.md)
 >* [440. 字典序的第K小数字](401-600/440.-zi-dian-xu-de-dikxiao-shu-zi.md)
 >* [442. 数组中重复的数据](401-600/442.-shu-zu-zhong-zhong-fu-de-shu-ju.md)
 >* [445. 两数相加 II](401-600/445.-liang-shu-xiang-jia-ii.md)
@@ -261,6 +262,7 @@
 >* [557. 反转字符串中的单词 III](401-600/557.-fan-zhuan-zi-fu-chuan-zhong-de-dan-ci-iii.md)
 >* [561. 数组拆分 I](401-600/561.-shu-zu-chai-fen-i.md)
 >* [566. 重塑矩阵](401-600/566.-zhong-su-ju-zhen.md)
+>* [567.字符串的排列](401-600/567.字符串的排列.md)
 >* [575. 分糖果](401-600/575.-fen-tang-guo.md)
 
 ># 601~800
