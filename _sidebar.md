@@ -234,6 +234,7 @@
 
 >* [406. 根据身高重建队列](401-600/406.-gen-ju-shen-gao-zhong-jian-dui-lie.md)
 >* [413. 等差数列划分](401-600/413.-deng-cha-shu-lie-hua-fen.md)
+>* [416. 分割等和子集](401-600/416.分割等和子集.md)
 >* [419. 甲板上的战舰](401-600/419.-jia-ban-shang-de-zhan-jian.md)
 >* [430. 扁平化多级双向链表](401-600/430.-bian-ping-hua-duo-ji-shuang-xiang-lian-biao.md)
 >* [433. 最小基因变化](401-600/433.-zui-xiao-ji-yin-bian-hua.md)
