@@ -7,3 +7,7 @@
 
 `dp[i][j] = max(dp[i-1][j], dp[i-1][j-weight[i]] + value[i])`
 
+完全背包
+定义：物品可以使用无限次
+`dp[i][j] = max(dp[i-1][j], dp[i][j-weight[i]] + value[i])`
+区别与01背包就在于dp后一项的状态1仍为i
