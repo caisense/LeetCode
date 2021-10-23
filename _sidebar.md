@@ -147,6 +147,7 @@
 >* [143. 重排链表](1-200/143.-zhong-pai-lian-biao.md)
 >* [144. 二叉树的前序遍历](1-200/144.-er-cha-shu-de-qian-xu-bian-li.md)
 >* [145. 二叉树的后序遍历](1-200/145.-er-cha-shu-de-hou-xu-bian-li.md)
+>* [146.LRU 缓存机制](1-200/146.LRU 缓存机制.md)
 >* [147. 对链表进行插入排序](1-200/147.-dui-lian-biao-jin-hang-cha-ru-pai-xu.md)
 >* [148. 排序链表](1-200/148.-pai-xu-lian-biao.md)
 >* [150. 逆波兰表达式求值](1-200/150.-ni-bo-lan-biao-da-shi-qiu-zhi.md)
