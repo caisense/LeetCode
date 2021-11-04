@@ -236,6 +236,7 @@
     * [359. Logger Rate Limiter](201-400/359.-logger-rate-limiter.md)
     * [364. Nested List Weight Sum II（TODO](201-400/364.-nested-list-weight-sum-ii.md)
     * [366. Find Leaves of Binary Tree](201-400/366.-find-leaves-of-binary-tree-fu-fei-ti.md)
+    * [367.有效的完全平方数](201-400/367.有效的完全平方数.md)
     * [370. Range Addition](201-400/370.-range-addition.md)
     * [374.猜数字大小](201-400/374.猜数字大小.md)
     * [378.有序矩阵中第 K 小的元素](201-400/378.有序矩阵中第K小的元素.md)
