@@ -301,7 +301,7 @@ for i in range(10):
 **对循环范围修改也是无效的，应改用while：**
 https://blog.csdn.net/u012033124/article/details/79080631
 
-## 12. py中的多变量for循环：
+## 12. py中的多变量for循环（使用zip打包）
 c++中有如下形式：
 
 ```
@@ -325,7 +325,7 @@ for (int i = 0, j = 1, k = 2; i < 9, j < 9, k < 11; i++, j++, k++) {
 
 py中：
 ```
->>> for i,j,k in zip(range(9), range(1,9), range(2,11)):  #每次对三个变量分别循环
+>>> for i,j,k in zip(range(9), range(1,9), range(2,11)):  #每次对三个变量分别循环，用zip打包，实际上是用for遍历zip
 ...    print(i,j,k)
 ... 
 0 1 2
