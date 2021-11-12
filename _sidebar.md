@@ -246,6 +246,7 @@
     * [367.有效的完全平方数](201-400/367.有效的完全平方数.md)
     * [370. Range Addition](201-400/370.-range-addition.md)
     * [374.猜数字大小](201-400/374.猜数字大小.md)
+    * [375.猜数字大小II](201-400/375.猜数字大小II.md)
     * [378.有序矩阵中第 K 小的元素](201-400/378.有序矩阵中第K小的元素.md)
     *401~600
     * [406. 根据身高重建队列](401-600/406.-gen-ju-shen-gao-zhong-jian-dui-lie.md)
@@ -290,6 +291,7 @@
     * [544. Output Contest Matches](401-600/544.-output-contest-matches-fu-fei-ti.md)
     * [553. 最优除法](401-600/553.-zui-you-chu-fa.md)
     * [557. 反转字符串中的单词 III](401-600/557.-fan-zhuan-zi-fu-chuan-zhong-de-dan-ci-iii.md)
+    * [560.和为K的子数组](401-600/560.和为K的子数组.md)
     * [561. 数组拆分 I](401-600/561.-shu-zu-chai-fen-i.md)
     * [566. 重塑矩阵](401-600/566.-zhong-su-ju-zhen.md)
     * [567.字符串的排列](401-600/567.字符串的排列.md)
