@@ -323,6 +323,7 @@
     * [669. 修剪二叉搜索树](601-800/669.-xiu-jian-er-cha-sou-suo-shu.md)
     * [677. 键值映射](601-800/677.-jian-zhi-ying-she.md)
     * [682. 棒球比赛](601-800/682.-bang-qiu-bi-sai.md)
+    * [684.冗余连接](601-800/684.冗余连接.md)
     * [690. 员工的重要性](601-800/690.-yuan-gong-de-zhong-yao-xing.md)
     * [693. 交替位二进制数](601-800/693.-jiao-ti-wei-er-jin-zhi-shu.md)
     * [695. 岛屿的最大面积](601-800/695.-dao-yu-de-zui-da-mian-ji.md)
