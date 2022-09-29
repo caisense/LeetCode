@@ -532,11 +532,11 @@ print(a)  #{2, 3, 4, 5, 6, 7, 8, 9}
 
 ```
  map = dict()    #词频
-        for c in t: 
-            if c in map:   #先判断是否存在
-                map[c] += 1
-            else:
-                map[c] = 1
+    for c in t: 
+        if c in map:   #先判断是否存在
+            map[c] += 1
+        else:
+            map[c] = 1
 ```
 https://app.gitbook.com/@cai-sen-se/s/leetcode/1-200/76.-zui-xiao-fu-gai-zi-chuan#jie-fa-yi
 方法二（简洁）：用get（）
@@ -554,3 +554,61 @@ for i in nums:
     d[i] = d.get(i, 0) + 1  #若字典中不存在i，则i词频为1
 print(d)  #{1: 2, 2: 2, 3: 1, 4: 1}
 ```
+
+
+
+## 26.全局变量关键字global和nonlocal
+
+函数调用外部变量，要在**外部变量声明时**和**函数内部使用时**，都声明global
+
+```python
+def closedIsland(self, grid: List[List[int]]) -> int:
+        #定义dfs辅助函数
+        def dfs(grid, i, j):
+            ...
+            if grid[i][j] == 0 and (i == 0 or i == m-1 or j == 0 or j == n-1):
+                global flag         #使用时也声明全局变量
+                flag = False
+                return
+            ...
+            dfs(grid, i, j+1)
+        #调用dfs    
+        m, n = len(grid), len(grid[0])  
+        res = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 0:
+                    global flag      #定义时声明全局变量      
+                    flag = True
+                    dfs(grid, i, j)
+                    if flag:
+                        res += 1
+        return res
+```
+
+或者只在内部使用时，声明nonlocal
+
+```python
+def closedIsland(self, grid: List[List[int]]) -> int:
+        #定义dfs辅助函数
+        def dfs(grid, i, j):
+            ...
+            if grid[i][j] == 0 and (i == 0 or i == m-1 or j == 0 or j == n-1):
+                nonlocal flag         #使用外部变量时声明
+                flag = False
+                return
+            ...
+            dfs(grid, i, j+1)
+        #调用dfs  
+        m, n = len(grid), len(grid[0])  
+        res = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 0:  
+                    flag = True		  #定义时不用声明nonlocal
+                    dfs(grid, i, j)
+                    if flag:
+                        res += 1
+        return res
+```
+
